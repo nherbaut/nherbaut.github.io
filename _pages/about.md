@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Aout"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-## About me
 
 I'm an Associate Professor in Paris 1 Panthéon-Sorbonne, in the CRI lab. I'm with the French Computer Science Learned Society (Société Informatique de France) and an IEEE member.
 
@@ -24,4 +23,4 @@ My research interests are Network Softwarization (SDN, NFV),  blockchain, Intent
 
 I'm always looking for opportunities to contribute to a project, volunteer for a good cause or collaborate to a scientific article. Feel free to contact me: nicolas.herbaut ([at}) univ-paris1.fr
 
-Continue to my (Research)[/research] or my (Publications)[/publications]
+Continue to my (Research)[research] or my (Publications)[publications]

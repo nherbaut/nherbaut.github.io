@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nicolas Herbaut - personnal website"
+title                    : "Nicolas Herbaut - personal website"
 title_separator          : "-"
 name                     : &name "Nicolas Herbaut"
 description              : &description "Associate Professor"
