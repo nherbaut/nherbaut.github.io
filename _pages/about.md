@@ -23,4 +23,4 @@ My research interests are Network Softwarization (SDN, NFV),  blockchain, Intent
 
 I'm always looking for opportunities to contribute to a project, volunteer for a good cause or collaborate to a scientific article. Feel free to contact me: nicolas.herbaut ([at}) univ-paris1.fr
 
-Continue to my (Research)[https://nherbaut.github.io/research] or my (Publications)[https://nherbaut.github.io/rpublications]
+Continue to my [Research](/research) or my [Publications)(/publications)
