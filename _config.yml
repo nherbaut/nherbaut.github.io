@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nicolas Herbaut - personal website"
+title                    : "Nicolas Herbaut - Associate Professor in Computer Science"
 title_separator          : "-"
 name                     : &name "Nicolas Herbaut"
-description              : &description "Associate Professor"
+description              : &description "Reasearch at Centre de Recherche en Informatique, Teaching in Université Paris 1 Panthéon-Sorbonne (MIAGE)"
 url                      : https://nextnet.top # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nherbaut/nherbaut.github.io"
