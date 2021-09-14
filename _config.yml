@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nicolas Herbaut - Associate Professor in Computer Science"
+title                    : "Nicolas Herbaut, PhD"
 title_separator          : "-"
 name                     : &name "Nicolas Herbaut"
 description              : &description "Reasearch at Centre de Recherche en Informatique, Teaching in Université Paris 1 Panthéon-Sorbonne (MIAGE)"
@@ -29,7 +29,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : dark # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -48,6 +48,8 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+
+
 
 # SEO Related
 google_site_verification :
@@ -82,7 +84,7 @@ analytics:
 author:
   name             : "Nicolas Herbaut"
   avatar           : "profile.png"
-  bio              : "Associate Professor Université Paris 1 Panthéon-Sorbonne"
+  bio              : "Associate Professor in Computer Science, Université Paris 1 Panthéon-Sorbonne"
   location         : "Paris, France"
   employer         : "Université Paris 1 Panthéon-Sorbonne"
   googlescholar    : "https://scholar.google.com/citations?user=cIJUqGUAAAAJ&hl=en"
