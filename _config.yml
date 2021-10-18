@@ -238,6 +238,13 @@ defaults:
       layout: single
       author_profile: true
       share: false
+  - scope:
+      path: ""
+      type: rdv
+    values:
+      layout: single
+      author_profile: true
+      share: false
 
 # Sass/SCSS
 sass:
