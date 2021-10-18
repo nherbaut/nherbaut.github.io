@@ -188,6 +188,9 @@ collections:
   posts:
     output: true
     permalink: /:collection/:path/
+  rdv:
+    output: true
+    permalink: /rdv/
 
 
 # Defaults
