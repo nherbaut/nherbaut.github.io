@@ -13,6 +13,6 @@ main:
     url: /year-archive/    
 
   - title: "CV"
-    url: /cv/
+    url: https://cv.archives-ouvertes.fr/nicolas-herbaut
   - title: "Make an appointment online"
     url: /rdv/
