@@ -27,8 +27,8 @@ Continue to my [Research](/research) or my [Publications](/publications)
 
 ## Current Affiliations
 
-![](pantheon.png)
+![](pantheon.webp)
 
-![](cri.png)
+![](cri.webp)
 
-![](sif.png)
+![](sif.webp)
