@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I'm an Associate Professor in [Paris 1 Panthéon-Sorbonne](https://pantheonsorbonne.fr), in the [CRI lab](https://cri.pantheonsorbonne.fr/). I'm with the French Computer Science Learned Society ([Société Informatique de France](societe-informatique-de-france.fr/)) and an IEEE member.
+I'm an Associate Professor in [Paris 1 Panthéon-Sorbonne](https://pantheonsorbonne.fr), in the [CRI lab](https://cri.pantheonsorbonne.fr/).
 
 ## Where I come from
 
@@ -31,4 +31,3 @@ Continue to my [Research](/research) or my [Publications](/publications)
 
 ![](cri.webp)
 
-![](sif.webp)
