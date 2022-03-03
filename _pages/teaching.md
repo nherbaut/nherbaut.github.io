@@ -7,6 +7,12 @@ author_profile: true
 ---
 |Uni | Date | Cours | Hours:|
 |------|----------------------|----------------------------------------------------|-------:|
+|Paris 1, UFR 27| Semestre 2 2021-2022 | PRO4 - M1 MIAGE Projets Communs | CM 24h |
+|Paris 1, UFR 27| Semestre 2 2021-2022 | ISI4 - M2 MIAGE Architecture d'entreprise | CM 24h |
+|Paris 1, UFR 27| Semestre 2 2021-2022 | IT4 - M2 MIAGE Blockchain Systems | CM 36h |
+|Paris 1, UFR 27| Semestre 2 2021-2022 | INF2 - M1 MIAGE Frameworks et Composants | EI 80h |
+|Paris 1, UFR 27| Semestre 1 2021-2022 | DEVTOOL - L3 MIAGE DevOPS and Programming workshop | EI 32h |
+|Paris 1, UFR 27| Semestre 1 2021-2022 | INF2 - L3 MIAGE Java Object Programming Advanced | EI 60h |
 |Paris 1, UFR 27| Semestre 2 2020-2021 | ISI4 - M2 MIAGE Architecture d'entreprise | CM 24h |
 |Paris 1, UFR 27| Semestre 2 2020-2021 | IT4 - M2 MIAGE Blockchain Systems | CM 36h |
 |Paris 1, UFR 27| Semestre 2 2020-2021 | INF2 - M1 MIAGE Frameworks et Composants | EI 80h |
