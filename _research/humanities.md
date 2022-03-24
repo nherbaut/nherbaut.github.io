@@ -9,7 +9,7 @@ I have established collaborations with researchers in Humanities and Social Scie
 
 ## Legal Aspects of Blockchain
 
-Thanks to my participation in Bordeaux's Digital Convergence Colloquia, I was able to meet legal researchers, including, with whom I worked on the legal aspects of smart contracts (1 publication\footnote{\url{https://nextnet.top/files/bbt.pdf}} in a national BBCT conference).
+Thanks to my participation in Bordeaux's Digital Convergence Colloquia, I was able to meet legal researchers, including, with whom I worked on the legal aspects of [smart contracts](https://nextnet.top/files/bbt.pdf).
 
 ## Competition disturbance by Artificial Intelligence
 
@@ -32,10 +32,9 @@ The contribution of such a technique is to check whether the information systems
 As part of the PCEN chair ([Cultural Pluralism & Digital Ethics](https://pcen.fr/)), I won a Paris 1 call for projects with researchers in economics aimed at extracting consumption data from a streaming platform with the aim of validating the hypotheses concerning the highlighting of content of European origin to comply with the SMA directive imposing a quota of community content on online platforms. In this context, we have developed a multi-platform distributed webscrapping solution, to collect data and proceed to their analysis.
 
 I extended this project [at the CRI in 2020-2021](https://miage.dev/s4g/) by setting up a team made up of L3 and M1 students for the technical part, as well as 2 research master's students for the data analysis part. We have addressed two important questions regarding platform content:
-\begin{itemize}
-    \item Can process mining be used to model the compliance of an online delivery platform's recommendations with the SMA directive?
-    \item How to fight against the promotion of conspiratorial content?
-\end{itemize}
+
+* Can process mining be used to model the compliance of an online delivery platform's recommendations with the SMA directive?
+* Have we won the war against conspirational content?
 
 Based on two datasets created using the webscrapping solution, we employed AI algorithms (fastText) to verify our hypotheses regarding the creation of filter bubbles on YouTube.
 
