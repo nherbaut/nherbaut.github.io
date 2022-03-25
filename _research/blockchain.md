@@ -21,7 +21,7 @@ We also proposed a solution based on blockchain and Trusted Execution Environmen
 2. [Nicolas Six, Andrea Perrichon-Chr{\'e}tien, Nicolas Herbaut, "SAIaaS: A Blockchain-based solution for secure artificial intelligence as-a-Service." In the proceedings of The International Conference on Deep Learning, Big Data and Blockchain, 2021.](https://doi.org/10.1007/978-3-030-84337-3_6)
 3. [Nicolas Six, Nicolas Herbaut, Camille Salinesi, "Harmonica: A Framework for Semi-automated Design and Implementation of Blockchain Applications." INSIGHT, 2021.](https://doi.org/10.1002/inst.12358)
 4. [Nicolas Six, Nicolas Herbaut, Camille Salinesi, "Which Blockchain to choose? A decision support tool to guide the choice of a Blockchain technology." In the proceedings of INFORSID, 2020.](https://doi.org/10.48550/arXiv.2004.06080)
-5. [Nicolas Six, Claudia Ribalta, Nicolas Herbaut, Camille Salinesi, "A blockchain-based pattern for confidential and pseudo-anonymous contract enforcement." In the proceedings of 2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), 2020.](10.1109/TrustCom50675.2020.00268)
+5. [Nicolas Six, Claudia Ribalta, Nicolas Herbaut, Camille Salinesi, "A blockchain-based pattern for confidential and pseudo-anonymous contract enforcement." In the proceedings of 2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), 2020.](https://doi.org/10.1109/TrustCom50675.2020.00268)
 6. [Boubakr Nour, Adlen Ksentini, Nicolas Herbaut, Pantelis Frangoudis, Hassine Moungla, "A blockchain-based network slice broker for 5G services." IEEE Networking Letters, 2019.](https://doi.org/10.1109/LNET.2019.2915117)
 
 ## Projects
