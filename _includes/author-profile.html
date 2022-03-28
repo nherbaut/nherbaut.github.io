@@ -118,6 +118,10 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
+      {% if author.p1ps %}
+        <li><a href="{{ author.p1ps }}"><i class="ai ai-impactstory ai-fw"></i>Institutional webpage</a></li>
+      {% endif %}
+
     </ul>
   </div>
 </div>
