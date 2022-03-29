@@ -31,7 +31,8 @@ publist = {
         "venuekey": "booktitle",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publication/"},
+        "category" : "International journal articles"
         
     },
     "journal":{
@@ -39,7 +40,16 @@ publist = {
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publication/"},
+        "category" : "International conference articles"
+    },
+     "fr":{
+        "file": "fr.bib",
+        "venuekey" : "journal-fr",
+        "venue-pretext" : "",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"},
+        "category" : "National conference or journal articles"
     } 
 }
 

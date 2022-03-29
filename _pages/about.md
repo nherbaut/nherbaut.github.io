@@ -17,7 +17,7 @@ I worked as a R&D Engineer, Team and Project manager for 10 years in the softwar
 
 ## Current Activities
 
-My research interests are Network Softwarization (SDN, NFV),  Blockchain, Intent-based Networking, Content delivery and Techno-Economics.
+My research interests are Blockchain for Information Systems, Network Softwarization (SDN, NFV, Intent-Based Networking), and data analysis for Social Sciences and Humanities.
 
 I'm always looking for opportunities to contribute to a project, volunteer for a good cause or collaborate to a scientific article. Feel free to contact me: nicolas.herbaut ([at}) univ-paris1.fr
 
