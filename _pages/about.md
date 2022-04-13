@@ -25,7 +25,20 @@ Continue to my [Research](/research) or my [Publications](/publications)
 
 ## Current Affiliations
 
-![](pantheon.webp)
 
-![](cri.webp)
+<p float="left" class="largeaffil">
+  <a href="https://www.pantheonsorbonne.fr/"><img src="/_pages/pantheon.webp" max-width="300" /></a>
+  <a href="https://cri.pantheonsorbonne.fr/"><img src="/_pages/cri.webp" max-width="300" /> </a>
+</p>
+
+### Past affiliations
+
+<p float="left" class="smallaffil">
+  <a href="https://societe-informatique-de-france.fr/"><img src="/_pages/img/SIF.png"  /></a>
+  <a href="https://www.liglab.fr/"> <img src="/_pages/img/LIG.png"  /></a>
+  <a href="https://www.u-bordeaux.fr/"><img src="/_pages/img/UBO.png"  /></a>
+  <a href="https://enseirb-matmeca.bordeaux-inp.fr/fr"><img src="/_pages/img/inp.png"  /></a>
+  <img src="/_pages/img/t-nova.png"  />
+  <img src="/_pages/img/rainbowfs.png"  />
+</p>
 
