@@ -19,6 +19,7 @@
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
 from time import strptime
+from datetime import date
 import string
 import html
 import os
@@ -30,8 +31,8 @@ publist = {
         "file" : "proceedings.bib",
         "venuekey": "booktitle",
         "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"},
+        "collection" : {"name":"pubi18njournal",
+                        "permalink":"/publications/"},
         "category" : "International journal articles"
         
     },
@@ -39,16 +40,16 @@ publist = {
         "file": "pubs.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"},
+        "collection" : {"name":"pubi18nconf",
+                        "permalink":"/publications/"},
         "category" : "International conference articles"
     },
      "fr":{
         "file": "fr.bib",
-        "venuekey" : "journal-fr",
+        "venuekey" : "venue",
         "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"},
+        "collection" : {"name":"pubn8lpub",
+                        "permalink":"/publications/"},
         "category" : "National conference or journal articles"
     } 
 }
@@ -79,6 +80,8 @@ for pubsource in publist:
         
         try:
             pub_year = f'{b["year"]}'
+            if pub_year == "accepted":
+                pub_year= str(date.today().year)
 
             #todo: this hack for month and day needs some cleanup
             if "month" in b.keys(): 
@@ -108,9 +111,11 @@ for pubsource in publist:
             #Build Citation from text
             citation = ""
 
+            authors=""
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                authors+=author.first_names[0]+" "+author.last_names[0]+", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
@@ -125,7 +130,11 @@ for pubsource in publist:
             ## YAML variables
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
             
+            md += """authors: """ + authors[:-2] +"\n"
+            md += """pub_year: """ + f'{b["year"]}' +"\n"
+            
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
+            md += """\nmetacollection: publications"""
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             
@@ -136,6 +145,7 @@ for pubsource in publist:
                     note = True
 
             md += "\ndate: " + str(pub_date) 
+            md += "\nyear: " + str(pub_year) 
 
             md += "\nvenue: '" + html_escape(venue) + "'"
             
@@ -155,13 +165,16 @@ for pubsource in publist:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
             if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+                md += "\n[\[PDF\] Download preprint version](" + b["url"] + "){:target=\"_blank\"}\n" 
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
             md_filename = os.path.basename(md_filename)
-
-            with open("../_publications/" + md_filename, 'w') as f:
+            target_folder=f'../_{publist[pubsource]["collection"]["name"]}'
+            if not os.path.exists(target_folder):
+                os.mkdir(target_folder)
+            print(f"creating {target_folder}")
+            with open(f"{target_folder}/{md_filename}", 'w') as f:
                 f.write(md)
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
