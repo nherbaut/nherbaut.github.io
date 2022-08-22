@@ -1,7 +1,7 @@
 ---
 title: "The Surrogate vNF approach for Content Distribution"
-collection: publications
-permalink: /publication/2015-01-01-The-Surrogate-vNF-approach-for-Content-Distribution
+collection: international-conference-proceedings
+permalink: /international-conference-proceedings/2015-01-01-The-Surrogate-vNF-approach-for-Content-Distribution
 date: 2015-01-01
 venue: 'COMSOC Multimedia Communications Technical Committee E-Letter,'
 paperurl: 'https://hal.archives-ouvertes.fr/hal-01485719'

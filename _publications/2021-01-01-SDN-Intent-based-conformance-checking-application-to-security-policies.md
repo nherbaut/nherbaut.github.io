@@ -1,7 +1,7 @@
 ---
 title: "SDN Intent-based conformance checking: application to security policies"
-collection: publications
-permalink: /publication/2021-01-01-SDN-Intent-based-conformance-checking-application-to-security-policies
+collection: international-journal-articles
+permalink: /international-journal-articles/2021-01-01-SDN-Intent-based-conformance-checking-application-to-security-policies
 date: 2021-01-01
 venue: 'In the proceedings of 7th IEEE International Conference on Network Softwarization (IEEE NetSoft 2021)'
 paperurl: 'https://hal.archives-ouvertes.fr/hal-03207525'

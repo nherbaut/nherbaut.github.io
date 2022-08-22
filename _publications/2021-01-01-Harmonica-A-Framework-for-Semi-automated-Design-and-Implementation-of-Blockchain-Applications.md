@@ -1,7 +1,7 @@
 ---
 title: "Harmonica: A Framework for Semi-automated Design and Implementation of Blockchain Applications"
-collection: publications
-permalink: /publication/2021-01-01-Harmonica-A-Framework-for-Semi-automated-Design-and-Implementation-of-Blockchain-Applications
+collection: international-conference-proceedings
+permalink: /international-conference-proceedings/2021-01-01-Harmonica-A-Framework-for-Semi-automated-Design-and-Implementation-of-Blockchain-Applications
 date: 2021-01-01
 venue: 'INSIGHT'
 paperurl: 'https://hal.archives-ouvertes.fr/hal-03526302'
