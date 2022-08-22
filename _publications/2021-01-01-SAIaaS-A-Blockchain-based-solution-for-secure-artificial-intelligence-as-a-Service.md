@@ -1,6 +1,6 @@
 ---
 title: "SAIaaS: A Blockchain-based solution for secure artificial intelligence as-a-Service"
-collection: international-journal-articles
+collection: international_journal_articles
 permalink: /international-journal-articles/2021-01-01-SAIaaS-A-Blockchain-based-solution-for-secure-artificial-intelligence-as-a-Service
 date: 2021-01-01
 venue: 'In the proceedings of The International Conference on Deep Learning, Big Data and Blockchain'

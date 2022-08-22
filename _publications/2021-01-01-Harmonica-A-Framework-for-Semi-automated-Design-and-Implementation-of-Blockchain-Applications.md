@@ -1,6 +1,6 @@
 ---
 title: "Harmonica: A Framework for Semi-automated Design and Implementation of Blockchain Applications"
-collection: international-conference-proceedings
+collection: international_conference_proceedings
 permalink: /international-conference-proceedings/2021-01-01-Harmonica-A-Framework-for-Semi-automated-Design-and-Implementation-of-Blockchain-Applications
 date: 2021-01-01
 venue: 'INSIGHT'

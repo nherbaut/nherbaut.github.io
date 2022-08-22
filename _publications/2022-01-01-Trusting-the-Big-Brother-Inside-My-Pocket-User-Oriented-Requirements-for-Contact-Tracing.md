@@ -1,6 +1,6 @@
 ---
 title: "Trusting the Big Brother Inside My Pocket: User-Oriented Requirements for Contact Tracing"
-collection: international-journal-articles
+collection: international_journal_articles
 permalink: /international-journal-articles/2022-01-01-Trusting-the-Big-Brother-Inside-My-Pocket-User-Oriented-Requirements-for-Contact-Tracing
 date: 2022-01-01
 venue: 'In the proceedings of Intelligent Information Systems'

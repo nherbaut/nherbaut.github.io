@@ -1,6 +1,6 @@
 ---
 title: "Blockchain software patterns for the design of decentralized applications: A systematic literature review"
-collection: international-conference-proceedings
+collection: international_conference_proceedings
 permalink: /international-conference-proceedings/2022-01-01-Blockchain-software-patterns-for-the-design-of-decentralized-applications-A-systematic-literature-review
 date: 2022-01-01
 venue: 'Blockchain: Research and Applications'

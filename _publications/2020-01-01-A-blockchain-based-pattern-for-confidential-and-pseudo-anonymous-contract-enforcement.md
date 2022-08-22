@@ -1,6 +1,6 @@
 ---
 title: "A blockchain-based pattern for confidential and pseudo-anonymous contract enforcement"
-collection: international-journal-articles
+collection: international_journal_articles
 permalink: /international-journal-articles/2020-01-01-A-blockchain-based-pattern-for-confidential-and-pseudo-anonymous-contract-enforcement
 date: 2020-01-01
 venue: 'In the proceedings of 2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)'

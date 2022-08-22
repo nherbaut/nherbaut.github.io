@@ -1,6 +1,6 @@
 ---
 title: "A blockchain-based network slice broker for 5G services"
-collection: international-conference-proceedings
+collection: international_conference_proceedings
 permalink: /international-conference-proceedings/2019-01-01-A-blockchain-based-network-slice-broker-for-5G-services
 date: 2019-01-01
 venue: 'IEEE Networking Letters'

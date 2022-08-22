@@ -1,6 +1,6 @@
 ---
 title: "Virtual Network Functions Deployment between Business Expectations and Technical Challenges: The T-NOVA Approach"
-collection: international-conference-proceedings
+collection: international_conference_proceedings
 permalink: /international-conference-proceedings/2016-01-01-Virtual-Network-Functions-Deployment-between-Business-Expectations-and-Technical-Challenges-The-T-NOVA-Approach
 date: 2016-01-01
 venue: 'Recent Advances in Communications and Networking Technology (Formerly Recent Patents on Telecommunication)(Discontinued)'
