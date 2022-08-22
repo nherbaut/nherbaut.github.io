@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Deployment and Optimization of Virtual Content Delivery Networks"
-collection: publications
-permalink: /publication/2017-01-01-Dynamic-Deployment-and-Optimization-of-Virtual-Content-Delivery-Networks
+collection: international-conference-proceedings
+permalink: /international-conference-proceedings/2017-01-01-Dynamic-Deployment-and-Optimization-of-Virtual-Content-Delivery-Networks
 date: 2017-01-01
 venue: 'IEEE MultiMedia'
 paperurl: 'https://hal.archives-ouvertes.fr/hal-01560112'

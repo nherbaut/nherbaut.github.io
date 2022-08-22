@@ -1,7 +1,7 @@
 ---
 title: "Content delivery networks as a virtual network function: A win-win ISP-CDN collaboration"
-collection: publications
-permalink: /publication/2016-01-01-Content-delivery-networks-as-a-virtual-network-function-A-win-win-ISP-CDN-collaboration
+collection: international-journal-articles
+permalink: /international-journal-articles/2016-01-01-Content-delivery-networks-as-a-virtual-network-function-A-win-win-ISP-CDN-collaboration
 date: 2016-01-01
 venue: 'In the proceedings of 2016 IEEE Global Communications Conference (GLOBECOM)'
 paperurl: 'https://hal.archives-ouvertes.fr/hal-01422267'
