@@ -1,6 +1,6 @@
 ---
 title: "Using Software Product Lines to Create Blockchain Products: Application to Supply Chain Traceability"
-collection: international-journal-articles
+collection: international_journal_articles
 permalink: /international-journal-articles/2022-09-01-Using-Software-Product-Lines-to-Create-Blockchain-Products-Application-to-Supply-Chain-Traceability
 date: 2022-09-01
 venue: 'In the proceedings of 26th ACM International Systems and Software Product Lines Conference'

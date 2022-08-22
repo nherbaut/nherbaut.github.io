@@ -1,7 +1,7 @@
 ---
 title: "BLADE: Un outil d’aide à la décision automatique pour guider le choix de technologie Blockchain"
-collection: workshop-or-national-conference-or-journal
-permalink: /workshop-or-national-conference-or-journal/2021-01-01-BLADE-Un-outil-daide-la-dcision-automatique-pour-guider-le-choix-de-technologie-Blockchain
+collection: workshop_or_national_conference_or_national_journal
+permalink: /workshop-or-national-conference-or-national-journal/2021-01-01-BLADE-Un-outil-daide-la-dcision-automatique-pour-guider-le-choix-de-technologie-Blockchain
 date: 2021-01-01
 venue: 'Revue ouverte d’ingénierie des systèmes d’information'
 paperurl: 'https://hal.archives-ouvertes.fr/hal-03116196/'

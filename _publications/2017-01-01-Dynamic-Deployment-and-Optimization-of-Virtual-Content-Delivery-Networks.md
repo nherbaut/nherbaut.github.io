@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Deployment and Optimization of Virtual Content Delivery Networks"
-collection: international-conference-proceedings
+collection: international_conference_proceedings
 permalink: /international-conference-proceedings/2017-01-01-Dynamic-Deployment-and-Optimization-of-Virtual-Content-Delivery-Networks
 date: 2017-01-01
 venue: 'IEEE MultiMedia'

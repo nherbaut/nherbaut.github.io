@@ -1,6 +1,6 @@
 ---
 title: "A model for collaborative blockchain-based video delivery relying on advanced network services chains"
-collection: international-conference-proceedings
+collection: international_conference_proceedings
 permalink: /international-conference-proceedings/2017-01-01-A-model-for-collaborative-blockchain-based-video-delivery-relying-on-advanced-network-services-chains
 date: 2017-01-01
 venue: 'IEEE Communications Magazine'

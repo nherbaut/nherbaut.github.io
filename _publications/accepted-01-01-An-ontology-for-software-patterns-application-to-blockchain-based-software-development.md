@@ -1,6 +1,6 @@
 ---
 title: "An ontology for software patterns: application to blockchain-based software development"
-collection: international-journal-articles
+collection: international_journal_articles
 permalink: /international-journal-articles/accepted-01-01-An-ontology-for-software-patterns-application-to-blockchain-based-software-development
 date: accepted-01-01
 venue: 'In the proceedings of 26th IEEE International Enterprise Distributed Object Computing Conference, EDOC 2022'

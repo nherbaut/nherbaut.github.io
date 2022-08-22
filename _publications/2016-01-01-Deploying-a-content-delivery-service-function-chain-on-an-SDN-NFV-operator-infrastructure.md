@@ -1,6 +1,6 @@
 ---
 title: "Deploying a content delivery service function chain on an SDN-NFV operator infrastructure"
-collection: international-journal-articles
+collection: international_journal_articles
 permalink: /international-journal-articles/2016-01-01-Deploying-a-content-delivery-service-function-chain-on-an-SDN-NFV-operator-infrastructure
 date: 2016-01-01
 venue: 'In the proceedings of 2016 International Conference on Telecommunications and Multimedia (TEMU)'
