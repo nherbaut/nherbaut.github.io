@@ -15,7 +15,11 @@ author_profile: true
 
 {% for post in site.pubi18njournal reversed %}
   <details>
-  <summary>[{{post.year}}] {{post.title}}  
+  {% if post.paperurl %}
+  <summary>[{{post.year}}] {{post.title}} <a href="{{ post.paperurl }}">[PDF]</a>
+  {% else %}
+  <summary>[{{post.year}}] {{post.title}}</a>
+  {% endif %}
   <span class="venue">({{post.venue}})</span></summary>
   <div class="pubdetails">{% include archive-single.html %}</div>
   </details>
@@ -24,8 +28,12 @@ author_profile: true
 ## International Journals Articles ({{ site.pubi18nconf | size }})
 
 {% for post in site.pubi18nconf reversed %}
-  <details>
-  <summary>[{{post.year}}] {{post.title}}  
+<details>
+  {% if post.paperurl %}
+  <summary>[{{post.year}}] {{post.title}} <a href="{{ post.paperurl }}">[PDF]</a>
+  {% else %}
+  <summary>[{{post.year}}] {{post.title}}</a>
+  {% endif %}
   <span class="venue">({{post.venue}})</span></summary>
   <div class="pubdetails">{% include archive-single.html %}</div>
   </details>
@@ -34,11 +42,14 @@ author_profile: true
 ## International Workshops or National Conferences or National Journals ({{ site.pubn8lpub.size }})
 
 {% for post in site.pubn8lpub  reversed %}
-  <details>
-  <summary>[{{post.year}}] {{post.title}}  
+<details>
+  {% if post.paperurl %}
+  <summary>[{{post.year}}] {{post.title}} <a href="{{ post.paperurl }}">[PDF]</a>
+  {% else %}
+  <summary>[{{post.year}}] {{post.title}}</a>
+  {% endif %}
   <span class="venue">({{post.venue}})</span></summary>
   <div class="pubdetails">{% include archive-single.html %}</div>
-  
   </details>
 {% endfor %}
 
