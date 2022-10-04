@@ -18,7 +18,7 @@ author_profile: true
   {% if post.paperurl %}
   <summary>[{{post.year}}] {{post.title}} <a href="{{ post.paperurl }}">[PDF]</a>
   {% else %}
-  <summary>[{{post.year}}] {{post.title}}</a>
+  <summary>[{{post.year}}] {{post.title}}
   {% endif %}
   <span class="venue">({{post.venue}})</span></summary>
   <div class="pubdetails">{% include archive-single.html %}</div>
