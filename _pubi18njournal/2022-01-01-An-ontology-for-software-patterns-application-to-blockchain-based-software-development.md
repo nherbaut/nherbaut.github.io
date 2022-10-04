@@ -1,7 +1,7 @@
 ---
 title: "An ontology for software patterns: application to blockchain-based software development"
 authors: Nicolas Six, Camilo Correa-Restrepo, Nicolas Herbaut, Camille Salinesi
-pub_year: accepted
+pub_year: 2022
 collection: pubi18njournal
 metacollection: publications
 permalink: /publications/2022-01-01-An-ontology-for-software-patterns-application-to-blockchain-based-software-development
