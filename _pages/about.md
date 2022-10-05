@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 
-I'm an Associate Professor in [Paris 1 Panthéon-Sorbonne](https://pantheonsorbonne.fr) in the Business Informatics Department [MIAGE](https://miage.pantheonsorbonne.fr), doing research in the [Centre de Recherche en Informatique (CRI) lab](https://cri.pantheonsorbonne.fr/).
+I'm an Associate Professor in [Paris 1 Panthéon-Sorbonne](https://pantheonsorbonne.fr) in the Business Informatics Department [MIAGE](https://miage.pantheonsorbonne.fr), doing research at the [Centre de Recherche en Informatique (CRI) lab](https://cri.pantheonsorbonne.fr/).
 
 ## Where I come from
 
