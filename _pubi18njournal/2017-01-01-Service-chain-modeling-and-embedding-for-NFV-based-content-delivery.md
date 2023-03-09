@@ -8,7 +8,7 @@ permalink: /publications/2017-01-01-Service-chain-modeling-and-embedding-for-NFV
 date: 2017-01-01
 year: 2017
 venue: 'In the proceedings of 2017 IEEE International Conference on Communications (ICC)'
-paperurl: 'https://hal.archives-ouvertes.fr/hal-01493381'
+paperurl: 'https://hal.science/hal-01493381'
 citation: ' Nicolas Herbaut,  Daniel Negru,  David Dietrich,  Panagiotis Papadimitriou, &quot;Service chain modeling and embedding for NFV-based content delivery.&quot; In the proceedings of 2017 IEEE International Conference on Communications (ICC), 2017.'
 ---
-[\[PDF\] Download preprint version](https://hal.archives-ouvertes.fr/hal-01493381){:target="_blank"}
+[\[PDF\] Download preprint version](https://hal.science/hal-01493381){:target="_blank"}

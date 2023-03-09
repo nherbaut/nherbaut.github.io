@@ -8,7 +8,7 @@ permalink: /publications/2015-01-01-Migrating-to-a-nfv-based-home-gateway-introd
 date: 2015-01-01
 year: 2015
 venue: 'In the proceedings of 7th Network of the Future (NOF), 2015 6th International Conference on the'
-paperurl: 'https://hal.archives-ouvertes.fr/hal-01485719'
+paperurl: 'https://hal.science/hal-01485719'
 citation: ' Nicolas Herbaut,  Daniel Negru,  George Xilouris,  Yiping Chen, &quot;Migrating to a nfv-based home gateway: introducing a surrogate vnf approach.&quot; In the proceedings of 7th Network of the Future (NOF), 2015 6th International Conference on the, 2015.'
 ---
-[\[PDF\] Download preprint version](https://hal.archives-ouvertes.fr/hal-01485719){:target="_blank"}
+[\[PDF\] Download preprint version](https://hal.science/hal-01485719){:target="_blank"}
