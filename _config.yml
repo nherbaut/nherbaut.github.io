@@ -183,6 +183,15 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  pubi18njournal:
+    output: true
+    permalink: /publications/:path/
+  pubi18nconf:
+    output: true
+    permalink: /publications/:path/
+  pubn8lpub:
+    output: true
+    permalink: /publications/:path/
   research:
     output: true
     permalink: /:collection/:path/

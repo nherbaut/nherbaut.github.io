@@ -11,6 +11,36 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+## International Conferences Proceedings ({{ site.pubi18njournal | size }})
+
+{% for post in site.pubi18njournal reversed %}
+  <details>
+  <summary>[{{post.year}}] {{post.title}}  
+  <span class="venue">({{post.venue}})</span></summary>
+  <div class="pubdetails">{% include archive-single.html %}</div>
+  </details>
 {% endfor %}
+
+## International Journals Articles ({{ site.pubi18nconf | size }})
+
+{% for post in site.pubi18nconf reversed %}
+  <details>
+  <summary>[{{post.year}}] {{post.title}}  
+  <span class="venue">({{post.venue}})</span></summary>
+  <div class="pubdetails">{% include archive-single.html %}</div>
+  </details>
+{% endfor %}
+
+## International Workshops or National Conferences or National Journals ({{ site.pubn8lpub.size }})
+
+{% for post in site.pubn8lpub  reversed %}
+  <details>
+  <summary>[{{post.year}}] {{post.title}}  
+  <span class="venue">({{post.venue}})</span></summary>
+  <div class="pubdetails">{% include archive-single.html %}</div>
+  
+  </details>
+{% endfor %}
+
+
+{% include text-expand.html %}

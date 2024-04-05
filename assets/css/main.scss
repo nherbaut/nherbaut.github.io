@@ -62,3 +62,29 @@ a:hover{
     max-width:133px;
     max-height: 70px;
 }
+
+.venue{
+    color: darkgrey;
+    font-style: italic;
+    display: block;
+}
+
+.pubdetails{
+    padding: 20px;
+    margin-top: 10px;
+    background: 
+    /* On "top" */
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      #fff 10px,
+      #fff 20px
+    ),
+    /* on "bottom" */
+    linear-gradient(
+      to bottom,
+      #fff,
+      #eee
+    );
+}
