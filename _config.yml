@@ -87,7 +87,7 @@ author:
   employer         : "Université Paris 1 Panthéon-Sorbonne"
   googlescholar    : "https://scholar.google.com/citations?user=cIJUqGUAAAAJ&hl=en"
   email            :
-  researchgate     :  "https://www.researchgate.net/profile/Nicolas-Herbaut"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -183,6 +183,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
+  posts:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -223,23 +226,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
   - scope:
       path: ""
       type: research
