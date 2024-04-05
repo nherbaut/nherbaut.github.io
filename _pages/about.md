@@ -27,6 +27,7 @@ Continue to my [Research](/research) or my [Publications](/publications)
 
 
 <p float="left" class="largeaffil">
+  <a href="https://anr.fr/fileadmin/aap/2023/selection/aapg-2023-ANR-FNR-selection.pdf"><img src="/_pages/ancile.webp" max-width="300" /></a>
   <a href="https://www.pantheonsorbonne.fr/"><img src="/_pages/pantheon.webp" max-width="300" /></a>
   <a href="https://cri.pantheonsorbonne.fr/"><img src="/_pages/cri.webp" max-width="300" /> </a>
 </p>
