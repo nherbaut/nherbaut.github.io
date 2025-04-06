@@ -17,7 +17,15 @@ I worked as an R&D Engineer, Team and Project manager for 10 years in the softwa
 
 ## Current Activities
 
-My research interests are Blockchain for Information Systems, Network Softwarization (SDN, NFV, Intent-Based Networking), and data analysis for Social Sciences and Humanities.
+My research interest are: 
+
+- Communication Networks Softwarization (*that's my PhD topic 2014-2017, I'm still maintaining some research activities and industrial collaborations on this area*)
+- Blockchain For Information Systems (*that's my main research line since 2018 at Université Paris 1, with 2 PhD students*)
+- Trust and Sustainability for Information Systems (*that's the new research line started in 2023, with 2 other PhD students*)
+
+My teaching duties are:
+
+- [Business Informatics Masters' S2I](https://www.miage.fr/Specialite-M2/parcours-s2i/) at MIAGE Sorbonne for Université Paris 1, to be transformed in [Sustainable Business Informatics](https://miage.pantheonsorbonne.fr/miage/master-miage-sbi) starting in 2025-2026.
 
 I'm always looking for opportunities to contribute to a project, volunteer for a good cause or collaborate to a scientific article. Feel free to contact me: nicolas.herbaut ([at}) univ-paris1.fr
 
