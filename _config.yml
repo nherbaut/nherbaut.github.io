@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Nicolas Herbaut, Associate Professor"
 title_separator          : "-"
 name                     : &name "Nicolas Herbaut"
-description              : &description "Reasearch at Centre de Recherche en Informatique, Teaching in Université Paris 1 Panthéon-Sorbonne (MIAGE)"
+description              : &description "Research at the LaBRI, Teaching in Université de Bordeaux (IUT INFO)"
 url                      : https://nextnet.top # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nherbaut/nherbaut.github.io"
@@ -84,9 +84,9 @@ analytics:
 author:
   name             : "Nicolas Herbaut"
   avatar           : "profile.png"
-  bio              : "Associate Professor in Computer Science, Université Paris 1 Panthéon-Sorbonne"
-  location         : "Paris, France"
-  employer         : "Université Paris 1 Panthéon-Sorbonne"
+  bio              : "Associate Professor in Computer Science, Université de Bordeaux"
+  location         : "Talence, France"
+  employer         : "IUT de Bordeaux"
   googlescholar    : "https://scholar.google.com/citations?user=cIJUqGUAAAAJ&hl=en"
   email            :
   researchgate     :  
