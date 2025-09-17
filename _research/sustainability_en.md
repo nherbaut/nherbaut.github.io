@@ -27,7 +27,7 @@ I chose to apply this conceptual framework to the analysis of AI for three reaso
 Although much research considers AI to be beneficial in certain areas — notably for reducing GHG emissions \[[SaberiKamarposhti et al. 2024](#ref-saberikamarposhti2024cultivating)\] \[[Adegbite et al. 2024](#ref-adegbite2024artificial)\] — studies addressing the systemic effects of AI remain rare and limited to (albeit important) considerations of AI ethics \[[Stahl et al. 2023](#ref-stahl2023systematic)\].  
 
 I aim to better understand the **systemic impacts of AI deployment**, to study the **sustainability of the ubiquitous AI model**, and to propose **pathways for shifting toward sustainable alternatives**.
-In this document, I begin by providing an illustrative example of a simplistic metabolic study focusing on a transport infrastructure (Section ). The objective of this example is to guide the reader in understanding the FIB model (Section ). I then proceed by explaining how the applied model can allow us to reason about the stability of a system (Section ) while taking into account its characteristics and first-, second-, and third-order effects. I continue by applying the model to the study of the metabolism of AI (Sections , , ) and justify the novelty of this approach. Finally, I propose directions for my future research within this theoretical framework (Section ).
+In this document, I begin by providing an illustrative example of a simplistic metabolic study focusing on a transport infrastructure (Section ). The objective of this example is to guide the reader in understanding the FIN model (Section ). I then proceed by explaining how the applied model can allow us to reason about the stability of a system (Section ) while taking into account its characteristics and first-, second-, and third-order effects. I continue by applying the model to the study of the metabolism of AI (Sections , , ) and justify the novelty of this approach. Finally, I propose directions for my future research within this theoretical framework (Section ).
 
 # Illustrative Example of a Socio-Metabolic Study
 
@@ -39,9 +39,9 @@ In 1900, the mayor of Bordeaux, Mr. Cousteau, inaugurated the first electric tra
 
 It should be noted that the example of Bordeaux is not an isolated phenomenon, but one of many cases \[[Turnheim 2023](#ref-turnheim2023historical)\].
 
-## FIB Model Applied to the Dismantling of the Tram in Bordeaux
+## FIN Model Applied to the Dismantling of the Tram in Bordeaux
 
-![Flux-Infrastructure-Needs Model](img/FIB_tram2.png)
+![Flux-Infrastructure-Needs Model](img/FIN_tram2.png)
 
 The figure shows the interaction between the 3 components of our model: flows, infrastructures, and needs.
 
@@ -62,11 +62,11 @@ Lock-in contributes to the stability of the system, creating forces that make a 
 
 It may be tempting to ask whether a systemic reading of urban metabolism could have anticipated the long-term effects linked to the dismantling of certain infrastructures. However, such a hypothesis must be handled with caution. Urban planning choices — such as those that led to the removal and later reconstruction of the Bordeaux tramway — are not solely the result of functional optimization logics. They are also the product of specific historical contexts, political power relations, sectoral economic interests, and dominant representations of progress at a given time[^15]. The current saturation of transport systems can therefore only be understood through this complexity, in which flows are but one element of the system.
 
-# Formalization of the FIB Model 
+# Formalization of the FIN Model 
 
-![Ontology of the FIB Model](img/ontology.png)
+![Ontology of the FIN Model](img/ontology.png)
 
-To describe the FIB model precisely, I adopted an approach based on the work of Guizzardi \[[Guizzardi 2005](#ref-guizzardi2005ontological)\], relying in particular on the foundational ontology UFO (Unified Foundational Ontology). This ontological framework provides a rigorous modeling of entities, their relationships, and the ontological dependencies between them. It allows for an explicit representation, through a class diagram[^16], of the structural and dynamic concepts underlying the FIB model, while ensuring the semantic coherence of the whole.
+To describe the FIN model precisely, I adopted an approach based on the work of Guizzardi \[[Guizzardi 2005](#ref-guizzardi2005ontological)\], relying in particular on the foundational ontology UFO (Unified Foundational Ontology). This ontological framework provides a rigorous modeling of entities, their relationships, and the ontological dependencies between them. It allows for an explicit representation, through a class diagram[^16], of the structural and dynamic concepts underlying the FIN model, while ensuring the semantic coherence of the whole.
 
 The three main components of the system (*Flows*, *Infrastructure*, and *Needs*) are represented. There are two types of relationships between these components: first-order relationships (Infrastructure Building and Primary Infrastructure User) and second-order relationships (Infrastructure Maintenance and Induced Infrastructure Use). *Flows* have been divided in two to indicate their respective contribution to *first-* and *second-order* relationships. Similarly, Induced Needs, which are the co-products of the primary use of infrastructure, are the consequence of the first-order relationship between Needs and Infrastructure, and the cause of the second-order relationship between these two components.
 
@@ -90,16 +90,16 @@ The intuitive analysis of this system allows us to identify 3 stable states resu
 
 After detailing the model, I now propose to present my project of applying it to the metabolism of AI.
 
-# Application of the FIB Model to the Study of AI Metabolism
+# Application of the FIN Model to the Study of AI Metabolism
 
-We will now analyze the metabolism of AI using the FIB model presented previously. Our objective is threefold:
+We will now analyze the metabolism of AI using the FIN model presented previously. Our objective is threefold:
 
-First, I specialize the FIB model presented in the Figure by integrating elements specific to AI. It should be noted that the proposed elements represent an initial naïve approach, and the development of these models will need to be refined in future work. Then, I analyze the emerging dynamics specific to AI within the specialized model, in order to better understand its stability properties. Finally, I propose ideas for short- and medium-term scientific contributions aimed at enriching the model and suggesting solutions.
+First, I specialize the FIN model presented in the Figure by integrating elements specific to AI. It should be noted that the proposed elements represent an initial naïve approach, and the development of these models will need to be refined in future work. Then, I analyze the emerging dynamics specific to AI within the specialized model, in order to better understand its stability properties. Finally, I propose ideas for short- and medium-term scientific contributions aimed at enriching the model and suggesting solutions.
 
 
 ## Les Flux 
 
-![études des flux de l'IA dans le modèle FIB](img/flows.png)
+![études des flux de l'IA dans le modèle FIN](img/flows.png)
 
 
 
@@ -153,7 +153,7 @@ The data used can be public or private. Public data flows do not present particu
 In either case, the use of private data proves necessary. The user must provide personal data if they wish for better model performance (e.g., in the case of personal assistants or recommendation engines). They may even be compelled to do so by public authorities[^27] or incentivized by private actors in exchange for access to their services[^28]. Legislators nevertheless plan to strengthen user awareness regarding the use of their data, particularly through texts governing personal data protection (e.g., GDPR), which require obtaining their consent before any collection. This last observation allows us to classify the use of private data as a negative externality.
 ## Infrastructures
 
-![Study of AI infrastructures in the FIB model](img/infrastructures.png)
+![Study of AI infrastructures in the FIN model](img/infrastructures.png)
 
 The infrastructures mobilized by AI largely inherit from those already implemented for other uses:
 
@@ -174,7 +174,7 @@ However, as we have seen, the dynamics of infrastructure depend on human needs w
 
 ## Needs
 
-![Study of AI needs in the FIB model](img/needs.png)
+![Study of AI needs in the FIN model](img/needs.png)
 
 Human beings have needs, in the sense of \[[Max-Neef et al. 1991](#ref-max1991human)\]. These needs are met through *Need Satisfiers*, which can be grouped into two broad categories: Helping Satisfiers and Hurtful Satisfiers.
 
@@ -192,8 +192,8 @@ The needs subsystem thus allows for an initial classification regarding the sust
 
 # Future Work
 
-This section presents ongoing and upcoming work, which aims to contribute to the research field of AI metabolism studies, positioning my research within the framework of the FIB model described earlier. This framework opens the way to numerous scientific contributions, divided into four axes: first, a methodological axis to refine the model, followed by axes specifically targeting each of the FIB subsystems.
-## Methodological Axis: Refinement of the FIB Model
+This section presents ongoing and upcoming work, which aims to contribute to the research field of AI metabolism studies, positioning my research within the framework of the FIN model described earlier. This framework opens the way to numerous scientific contributions, divided into four axes: first, a methodological axis to refine the model, followed by axes specifically targeting each of the FIN subsystems.
+## Methodological Axis: Refinement of the FIN Model
 
 As mentioned earlier, many factors were left aside in our initial modeling. A more complete life cycle analysis, based on existing work \[[Bouza et al. 2023](#ref-bouza2023estimate)\] and a systemic approach \[[Ekchajzer et al. 2024](#ref-ekchajzer2024decision)\], would allow for a deeper understanding of the actual sustainability of the system. The difficulty, beyond data collection, lies in accounting for second- and third-order effects (rebound effects), which represent a real challenge for both researchers and public authorities \[[Courboulay 2023](#ref-courboulay2023archipel)\].
 
@@ -209,7 +209,7 @@ This distinction is essential in the framework of needs classification. Indeed, 
 
 ## Infrastructure and Flow Axis: Feasibility and Evaluation of Decentralized AI Solutions
 
-As illustrated by the application of the FIB model, the deployment of the centralized AI model we currently know raises problems in terms of flows and infrastructures. We have also begun to study the substitutability of this model in the case of home assistants[^37]. These — just like, on a larger scale, the concept of the *smart building* — show, at first glance, energy efficiency gains and reduced maintenance costs \[[Ejidike and Mewomo 2023](#ref-ejidike2023benefits)\], though these must be balanced against the environmental impact of large-scale deployment of such solutions.
+As illustrated by the application of the FIN model, the deployment of the centralized AI model we currently know raises problems in terms of flows and infrastructures. We have also begun to study the substitutability of this model in the case of home assistants[^37]. These — just like, on a larger scale, the concept of the *smart building* — show, at first glance, energy efficiency gains and reduced maintenance costs \[[Ejidike and Mewomo 2023](#ref-ejidike2023benefits)\], though these must be balanced against the environmental impact of large-scale deployment of such solutions.
 
 We are exploring the possibility that a disconnected, explainable, and *coachable* model could address the challenges posed by the unsustainability of flows, respect for privacy, and the limitations of current infrastructures.  
 We are currently developing an *edge device* prototype[^38] to address these challenges while maintaining a high level of service and user acceptance \[[Vrain and Wilson 2024](#ref-vrain2024automation)\].
@@ -225,7 +225,7 @@ It is therefore essential to study in more detail the human cognitive limits to 
 
 # Conclusion
 
-This document establishes the conceptual and methodological foundations of my future work on the metabolism of artificial intelligence, based on a foundational approach formalized through the FIB model. By articulating flows, infrastructures, and needs, this framework makes it possible to analyze the stability and sustainability of sociotechnical systems integrating AI.
+This document establishes the conceptual and methodological foundations of my future work on the metabolism of artificial intelligence, based on a foundational approach formalized through the FIN model. By articulating flows, infrastructures, and needs, this framework makes it possible to analyze the stability and sustainability of sociotechnical systems integrating AI.
 
 The application of this model to ubiquitous AI reveals complex dynamics, where apparent gains in performance or comfort are often accompanied by negative externalities, structural lock-ins, and systemic rebound effects. Taking into account human, regulatory, and material dimensions, as well as second- and third-order effects, appears essential to understand current trajectories and to consider sustainable alternatives.
 
@@ -365,7 +365,7 @@ The proposed research axes open the way to interdisciplinary contributions aimed
 
 [^3]: **Trust and AI**: see the theses of Eddy Kiomba (2022–2025) and Yuntian Ding (2024–2027).
 
-[^4]: In this document, I use slightly different terminology — **Flows-Infrastructure-Needs (FIB)** — as it more clearly reflects the materialities of the concepts at play.
+[^4]: In this document, I use slightly different terminology — **Flows-Infrastructure-Needs (FIN)** — as it more clearly reflects the materialities of the concepts at play.
 
 [^5]: Deloitte forecasts an increase in electricity consumption linked to AI from 1680 TWh to 3550 TWh per year by 2050.
 
