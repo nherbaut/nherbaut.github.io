@@ -689,257 +689,127 @@ compatibles avec les limites planétaires et humaines.
 <div id="refs" class="references csl-bib-body hanging-indent">
 
 <div id="ref-adegbite2024artificial" class="csl-entry">
-
-<span class="smallcaps">Adegbite, A.O., Barrie, I., Osholake, S.F.,
-Alesinloye, T., and Bello, A.B.</span> 2024. Artificial intelligence in
-climate change mitigation: A review of predictive modeling and
-data-driven solutions for reducing greenhouse gas emissions.
-
+<span class="smallcaps">Adegbite, A.O., Barrie, I., Osholake, S.F., Alesinloye, T., and Bello, A.B.</span> 2024. Artificial intelligence in climate change mitigation: A review of predictive modeling and data-driven solutions for reducing greenhouse gas emissions.
 </div>
 
 <div id="ref-bouza2023estimate" class="csl-entry">
-
-<span class="smallcaps">Bouza, L., Bugeau, A., and Lannelongue,
-L.</span> 2023. How to estimate carbon footprint when training deep
-learning models? A guide and review. *Environmental Research
-Communications* *5*, 11, 115014.
-
+<span class="smallcaps">Bouza, L., Bugeau, A., and Lannelongue, L.</span> 2023. How to estimate carbon footprint when training deep learning models? A guide and review. <em>Environmental Research Communications</em> <em>5</em>, 11, 115014.
 </div>
 
 <div id="ref-bugeau2023digital" class="csl-entry">
-
-<span class="smallcaps">Bugeau, A. and Ligozat, A.-L.</span> 2023. How
-digital will the future be? Analysis of prospective scenarios. *arXiv
-preprint arXiv:2312.15948*.
-
+<span class="smallcaps">Bugeau, A. and Ligozat, A.-L.</span> 2023. How digital will the future be? Analysis of prospective scenarios. <em>arXiv preprint arXiv:2312.15948</em>.
 </div>
 
 <div id="ref-casilli2025human" class="csl-entry">
-
-<span class="smallcaps">Casilli, A.A., Le Bonniec, T., and Posada,
-J.</span> 2025. *The human cost of DeepSeek*.
-
+<span class="smallcaps">Casilli, A.A., Le Bonniec, T., and Posada, J.</span> 2025. <em>The human cost of DeepSeek</em>.
 </div>
 
 <div id="ref-courboulay2023archipel" class="csl-entry">
-
-<span class="smallcaps">Courboulay, V.</span> 2023. *L’archipel des
-gafam*. Actes Sud. Open Praxis DOI.
-
+<span class="smallcaps">Courboulay, V.</span> 2023. <em>L’archipel des gafam</em>. Actes Sud. Open Praxis DOI.
 </div>
 
 <div id="ref-ejidike2023benefits" class="csl-entry">
-
-<span class="smallcaps">Ejidike, C.C. and Mewomo, M.C.</span> 2023.
-Benefits of adopting smart building technologies in building
-construction of developing countries: Review of literature. *SN Applied
-Sciences* *5*, 2, 52.
-
+<span class="smallcaps">Ejidike, C.C. and Mewomo, M.C.</span> 2023. Benefits of adopting smart building technologies in building construction of developing countries: Review of literature. <em>SN Applied Sciences</em> <em>5</em>, 2, 52.
 </div>
 
 <div id="ref-ekchajzer2024decision" class="csl-entry">
-
-<span class="smallcaps">Ekchajzer, D., Bornes, L., Combaz, J., Letondal,
-C., and Vingerhoeds, R.</span> 2024. Decision-making under environmental
-complexity: The need for moving from avoided impacts of ICT solutions to
-systems thinking approaches. *2024 10th international conference on ICT
-for sustainability (ICT4S)*, IEEE, 29–40.
-
+<span class="smallcaps">Ekchajzer, D., Bornes, L., Combaz, J., Letondal, C., and Vingerhoeds, R.</span> 2024. Decision-making under environmental complexity: The need for moving from avoided impacts of ICT solutions to systems thinking approaches. <em>2024 10th international conference on ICT for sustainability (ICT4S)</em>, IEEE, 29–40.
 </div>
 
 <div id="ref-fastowski2024understanding" class="csl-entry">
-
-<span class="smallcaps">Fastowski, A. and Kasneci, G.</span> 2024.
-Understanding knowledge drift in llms through misinformation.
-*International workshop on discovering drift phenomena in evolving
-landscapes*, Springer, 74–85.
-
+<span class="smallcaps">Fastowski, A. and Kasneci, G.</span> 2024. Understanding knowledge drift in llms through misinformation. <em>International workshop on discovering drift phenomena in evolving landscapes</em>, Springer, 74–85.
 </div>
 
 <div id="ref-guizzardi2005ontological" class="csl-entry">
-
-<span class="smallcaps">Guizzardi, G.</span> 2005. Ontological
-foundations for structural conceptual models.
-
+<span class="smallcaps">Guizzardi, G.</span> 2005. Ontological foundations for structural conceptual models.
 </div>
 
 <div id="ref-haberl2019contributions" class="csl-entry">
-
-<span class="smallcaps">Haberl, H., Wiedenhofer, D., Pauliuk, S.,
-Krausmann, F., Müller, D.B., and Fischer-Kowalski, M.</span> 2019.
-Contributions of sociometabolic research to sustainability science.
-*Nature Sustainability* *2*, 3, 173–184.
-
+<span class="smallcaps">Haberl, H., Wiedenhofer, D., Pauliuk, S., Krausmann, F., Müller, D.B., and Fischer-Kowalski, M.</span> 2019. Contributions of sociometabolic research to sustainability science. <em>Nature Sustainability</em> <em>2</em>, 3, 173–184.
 </div>
 
 <div id="ref-kiddee2013electronic" class="csl-entry">
-
-<span class="smallcaps">Kiddee, P., Naidu, R., and Wong, M.H.</span>
-2013. Electronic waste management approaches: An overview. *Waste
-management* *33*, 5, 1237–1250.
-
+<span class="smallcaps">Kiddee, P., Naidu, R., and Wong, M.H.</span> 2013. Electronic waste management approaches: An overview. <em>Waste management</em> <em>33</em>, 5, 1237–1250.
 </div>
 
 <div id="ref-lamb2017human" class="csl-entry">
-
-<span class="smallcaps">Lamb, W.F. and Steinberger, J.K.</span> 2017.
-Human well-being and climate change mitigation. *Wiley Interdisciplinary
-Reviews: Climate Change* *8*, 6, e485.
-
+<span class="smallcaps">Lamb, W.F. and Steinberger, J.K.</span> 2017. Human well-being and climate change mitigation. <em>Wiley Interdisciplinary Reviews: Climate Change</em> <em>8</em>, 6, e485.
 </div>
 
 <div id="ref-lankton2015technology" class="csl-entry">
-
-<span class="smallcaps">Lankton, N.K., McKnight, D.H., and Tripp,
-J.</span> 2015. Technology, humanness, and trust: Rethinking trust in
-technology. *Journal of the Association for Information Systems* *16*,
-10, 1.
-
+<span class="smallcaps">Lankton, N.K., McKnight, D.H., and Tripp, J.</span> 2015. Technology, humanness, and trust: Rethinking trust in technology. <em>Journal of the Association for Information Systems</em> <em>16</em>, 10, 1.
 </div>
 
 <div id="ref-lopez2023sous" class="csl-entry">
-
-<span class="smallcaps">Lopez, F. and Diguet, C.</span> 2023. *Sous le
-feu numérique spatialités et <span class="nocase">é</span>nergies des
-data centers*.
-
+<span class="smallcaps">Lopez, F. and Diguet, C.</span> 2023. <em>Sous le feu numérique spatialités et énergies des data centers</em>.
 </div>
 
 <div id="ref-max1991human" class="csl-entry">
-
-<span class="smallcaps">Max-Neef, M.A., Elizalde, A., and Hopenhayn,
-M.</span> 1991. *Human scale development: Conception, application and
-further reflections*.
-
+<span class="smallcaps">Max-Neef, M.A., Elizalde, A., and Hopenhayn, M.</span> 1991. <em>Human scale development: Conception, application and further reflections</em>.
 </div>
 
 <div id="ref-mayer1995integrative" class="csl-entry">
-
-<span class="smallcaps">Mayer, R.C., Davis, J.H., and Schoorman,
-F.D.</span> 1995. An integrative model of organizational trust. *Academy
-of management review* *20*, 3, 709–734.
-
+<span class="smallcaps">Mayer, R.C., Davis, J.H., and Schoorman, F.D.</span> 1995. An integrative model of organizational trust. <em>Academy of management review</em> <em>20</em>, 3, 709–734.
 </div>
 
 <div id="ref-meadows2018limits" class="csl-entry">
-
-<span class="smallcaps">Meadows, D.H., Meadows, D.L., Randers, J., and
-Behrens, W.W.</span> 2018. The limits to growth. In: *Green planet
-blues*. Routledge, 25–29.
-
+<span class="smallcaps">Meadows, D.H., Meadows, D.L., Randers, J., and Behrens, W.W.</span> 2018. The limits to growth. In: <em>Green planet blues</em>. Routledge, 25–29.
 </div>
 
 <div id="ref-mollen2024governing" class="csl-entry">
-
-<span class="smallcaps">Mollen, A., Keilbach, J., Brodie, P., et
-al.</span> 2024. Governing digital infrastructures for a secure and
-sustainable future. *Available at SSRN 4879449*.
-
+<span class="smallcaps">Mollen, A., Keilbach, J., Brodie, P., et al.</span> 2024. Governing digital infrastructures for a secure and sustainable future. <em>Available at SSRN 4879449</em>.
 </div>
 
 <div id="ref-morand2024mlca" class="csl-entry">
-
-<span class="smallcaps">Morand, C., Ligozat, A.-L., and Névéol,
-A.</span> 2024. Mlca: A tool for machine learning life cycle assessment.
-*2024 10th international conference on ICT for sustainability (ICT4S)*,
-IEEE, 227–238.
-
+<span class="smallcaps">Morand, C., Ligozat, A.-L., and Névéol, A.</span> 2024. Mlca: A tool for machine learning life cycle assessment. <em>2024 10th international conference on ICT for sustainability (ICT4S)</em>, IEEE, 227–238.
 </div>
 
 <div id="ref-newman2013costs" class="csl-entry">
-
-<span class="smallcaps">Newman, N.</span> 2013. The costs of lost
-privacy: Consumer harm and rising economic inequality in the age of
-google. *Wm. Mitchell L. Rev.* *40*, 849.
-
+<span class="smallcaps">Newman, N.</span> 2013. The costs of lost privacy: Consumer harm and rising economic inequality in the age of google. <em>Wm. Mitchell L. Rev.</em> <em>40</em>, 849.
 </div>
 
 <div id="ref-preukschat2021self" class="csl-entry">
-
-<span class="smallcaps">Preukschat, A. and Reed, D.</span> 2021.
-*Self-sovereign identity*. Manning Publications.
-
+<span class="smallcaps">Preukschat, A. and Reed, D.</span> 2021. <em>Self-sovereign identity</em>. Manning Publications.
 </div>
 
 <div id="ref-saberikamarposhti2024cultivating" class="csl-entry">
-
-<span class="smallcaps">SaberiKamarposhti, M., Ng, K.-W., Yadollahi, M.,
-Kamyab, H., Cheng, J., and Khorami, M.</span> 2024. Cultivating a
-sustainable future in the artificial intelligence era: A comprehensive
-assessment of greenhouse gas emissions and removals in agriculture.
-*Environmental Research* *250*, 118528.
-
+<span class="smallcaps">SaberiKamarposhti, M., Ng, K.-W., Yadollahi, M., Kamyab, H., Cheng, J., and Khorami, M.</span> 2024. Cultivating a sustainable future in the artificial intelligence era: A comprehensive assessment of greenhouse gas emissions and removals in agriculture. <em>Environmental Research</em> <em>250</em>, 118528.
 </div>
 
 <div id="ref-sadin2016silicolonisation" class="csl-entry">
-
-<span class="smallcaps">Sadin, É.</span> 2016. *La silicolonisation du
-monde: L’irrésistible expansion du libéralisme numérique*. L’échappée.
-
+<span class="smallcaps">Sadin, É.</span> 2016. <em>La silicolonisation du monde: L’irrésistible expansion du libéralisme numérique</em>. L’échappée.
 </div>
 
 <div id="ref-schoormann2023artificial" class="csl-entry">
-
-<span class="smallcaps">Schoormann, T., Strobel, G., Möller, F., Petrik,
-D., and Zschech, P.</span> 2023. Artificial intelligence for
-sustainability—a systematic review of information systems literature.
-*Communications of the Association for Information Systems* *52*, 1, 8.
-
+<span class="smallcaps">Schoormann, T., Strobel, G., Möller, F., Petrik, D., and Zschech, P.</span> 2023. Artificial intelligence for sustainability—a systematic review of information systems literature. <em>Communications of the Association for Information Systems</em> <em>52</em>, 1, 8.
 </div>
 
 <div id="ref-stahl2023systematic" class="csl-entry">
-
-<span class="smallcaps">Stahl, B.C., Antoniou, J., Bhalla, N., et
-al.</span> 2023. A systematic review of artificial intelligence impact
-assessments. *Artificial Intelligence Review* *56*, 11, 12799–12831.
-
+<span class="smallcaps">Stahl, B.C., Antoniou, J., Bhalla, N., et al.</span> 2023. A systematic review of artificial intelligence impact assessments. <em>Artificial Intelligence Review</em> <em>56</em>, 11, 12799–12831.
 </div>
 
 <div id="ref-stanley2021anger" class="csl-entry">
-
-<span class="smallcaps">Stanley, S.K., Hogg, T.L., Leviston, Z., and
-Walker, I.</span> 2021. From anger to action: Differential impacts of
-eco-anxiety, eco-depression, and eco-anger on climate action and
-wellbeing. *The Journal of Climate Change and Health* *1*, 100003.
-
+<span class="smallcaps">Stanley, S.K., Hogg, T.L., Leviston, Z., and Walker, I.</span> 2021. From anger to action: Differential impacts of eco-anxiety, eco-depression, and eco-anger on climate action and wellbeing. <em>The Journal of Climate Change and Health</em> <em>1</em>, 100003.
 </div>
 
 <div id="ref-turnheim2023historical" class="csl-entry">
-
-<span class="smallcaps">Turnheim, B.</span> 2023. The historical
-dismantling of tramways as a case of destabilisation and phase-out of
-established system. *Proceedings of the National Academy of Sciences*
-*120*, 47, e2206227120.
-
+<span class="smallcaps">Turnheim, B.</span> 2023. The historical dismantling of tramways as a case of destabilisation and phase-out of established system. <em>Proceedings of the National Academy of Sciences</em> <em>120</em>, 47, e2206227120.
 </div>
 
 <div id="ref-verdecchia2023systematic" class="csl-entry">
-
-<span class="smallcaps">Verdecchia, R., Sallou, J., and Cruz, L.</span>
-2023. A systematic review of green AI. *Wiley Interdisciplinary Reviews:
-Data Mining and Knowledge Discovery* *13*, 4, e1507.
-
+<span class="smallcaps">Verdecchia, R., Sallou, J., and Cruz, L.</span> 2023. A systematic review of green AI. <em>Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery</em> <em>13</em>, 4, e1507.
 </div>
 
 <div id="ref-vrain2024automation" class="csl-entry">
-
-<span class="smallcaps">Vrain, E. and Wilson, C.</span> 2024. Automation
-acceptance for sustainable digital daily life. *2024 10th international
-conference on ICT for sustainability (ICT4S)*, IEEE, 10–19.
-
+<span class="smallcaps">Vrain, E. and Wilson, C.</span> 2024. Automation acceptance for sustainable digital daily life. <em>2024 10th international conference on ICT for sustainability (ICT4S)</em>, IEEE, 10–19.
 </div>
 
 <div id="ref-wilson2024evidence" class="csl-entry">
-
-<span class="smallcaps">Wilson, C., Agnew, M., Amanta, F., Van Fan, Y.,
-Kumar, P., and Seger, M.</span> 2024. Evidence synthesis of indirect
-impacts of digitalisation on energy and emissions. *2024 10th
-international conference on ICT for sustainability (ICT4S)*, IEEE,
-116–127.
-
+<span class="smallcaps">Wilson, C., Agnew, M., Amanta, F., Van Fan, Y., Kumar, P., and Seger, M.</span> 2024. Evidence synthesis of indirect impacts of digitalisation on energy and emissions. <em>2024 10th international conference on ICT for sustainability (ICT4S)</em>, IEEE, 116–127.
 </div>
 
 </div>
+
 
 [^1]: ce concept sous-tend l’idée que la disponibilité et les performances
 de l’IA peuvent devenir si grandes qu’il est susceptible d’impacter

@@ -92,3 +92,29 @@ a:hover{
 details{
     cursor: pointer;
 }
+
+ #refs {
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin-top: 2em;
+  }
+
+  #refs .csl-entry {
+    margin-bottom: 0.8em;
+    padding-left: 1.5em;
+    text-indent: -1.5em; /* hanging indent */
+  }
+
+  #refs .csl-entry i,
+  #refs .csl-entry em {
+    font-style: italic;
+  }
+
+  #refs .smallcaps {
+    font-variant: small-caps;
+    font-weight: 600;
+  }
+
+  #refs .csl-entry::marker {
+    font-weight: bold;
+  }

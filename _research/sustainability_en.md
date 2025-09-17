@@ -237,417 +237,200 @@ The proposed research axes open the way to interdisciplinary contributions aimed
 <div id="refs" class="references csl-bib-body hanging-indent">
 
 <div id="ref-adegbite2024artificial" class="csl-entry">
-
-<span class="smallcaps">Adegbite, A.O., Barrie, I., Osholake, S.F.,
-Alesinloye, T., and Bello, A.B.</span> 2024. Artificial intelligence in
-climate change mitigation: A review of predictive modeling and
-data-driven solutions for reducing greenhouse gas emissions.
-
+<span class="smallcaps">Adegbite, A.O., Barrie, I., Osholake, S.F., Alesinloye, T., and Bello, A.B.</span> 2024. Artificial intelligence in climate change mitigation: A review of predictive modeling and data-driven solutions for reducing greenhouse gas emissions.
 </div>
 
 <div id="ref-bouza2023estimate" class="csl-entry">
-
-<span class="smallcaps">Bouza, L., Bugeau, A., and Lannelongue,
-L.</span> 2023. How to estimate carbon footprint when training deep
-learning models? A guide and review. *Environmental Research
-Communications* *5*, 11, 115014.
-
+<span class="smallcaps">Bouza, L., Bugeau, A., and Lannelongue, L.</span> 2023. How to estimate carbon footprint when training deep learning models? A guide and review. <em>Environmental Research Communications</em> <em>5</em>, 11, 115014.
 </div>
 
 <div id="ref-bugeau2023digital" class="csl-entry">
-
-<span class="smallcaps">Bugeau, A. and Ligozat, A.-L.</span> 2023. How
-digital will the future be? Analysis of prospective scenarios. *arXiv
-preprint arXiv:2312.15948*.
-
+<span class="smallcaps">Bugeau, A. and Ligozat, A.-L.</span> 2023. How digital will the future be? Analysis of prospective scenarios. <em>arXiv preprint arXiv:2312.15948</em>.
 </div>
 
 <div id="ref-casilli2025human" class="csl-entry">
-
-<span class="smallcaps">Casilli, A.A., Le Bonniec, T., and Posada,
-J.</span> 2025. *The human cost of DeepSeek*.
-
+<span class="smallcaps">Casilli, A.A., Le Bonniec, T., and Posada, J.</span> 2025. <em>The human cost of DeepSeek</em>.
 </div>
 
 <div id="ref-courboulay2023archipel" class="csl-entry">
-
-<span class="smallcaps">Courboulay, V.</span> 2023. *L’archipel des
-gafam*. Actes Sud. Open Praxis DOI.
-
+<span class="smallcaps">Courboulay, V.</span> 2023. <em>L’archipel des gafam</em>. Actes Sud. Open Praxis DOI.
 </div>
 
 <div id="ref-ejidike2023benefits" class="csl-entry">
-
-<span class="smallcaps">Ejidike, C.C. and Mewomo, M.C.</span> 2023.
-Benefits of adopting smart building technologies in building
-construction of developing countries: Review of literature. *SN Applied
-Sciences* *5*, 2, 52.
-
+<span class="smallcaps">Ejidike, C.C. and Mewomo, M.C.</span> 2023. Benefits of adopting smart building technologies in building construction of developing countries: Review of literature. <em>SN Applied Sciences</em> <em>5</em>, 2, 52.
 </div>
 
 <div id="ref-ekchajzer2024decision" class="csl-entry">
-
-<span class="smallcaps">Ekchajzer, D., Bornes, L., Combaz, J., Letondal,
-C., and Vingerhoeds, R.</span> 2024. Decision-making under environmental
-complexity: The need for moving from avoided impacts of ICT solutions to
-systems thinking approaches. *2024 10th international conference on ICT
-for sustainability (ICT4S)*, IEEE, 29–40.
-
+<span class="smallcaps">Ekchajzer, D., Bornes, L., Combaz, J., Letondal, C., and Vingerhoeds, R.</span> 2024. Decision-making under environmental complexity: The need for moving from avoided impacts of ICT solutions to systems thinking approaches. <em>2024 10th international conference on ICT for sustainability (ICT4S)</em>, IEEE, 29–40.
 </div>
 
 <div id="ref-fastowski2024understanding" class="csl-entry">
-
-<span class="smallcaps">Fastowski, A. and Kasneci, G.</span> 2024.
-Understanding knowledge drift in llms through misinformation.
-*International workshop on discovering drift phenomena in evolving
-landscapes*, Springer, 74–85.
-
+<span class="smallcaps">Fastowski, A. and Kasneci, G.</span> 2024. Understanding knowledge drift in llms through misinformation. <em>International workshop on discovering drift phenomena in evolving landscapes</em>, Springer, 74–85.
 </div>
 
 <div id="ref-guizzardi2005ontological" class="csl-entry">
-
-<span class="smallcaps">Guizzardi, G.</span> 2005. Ontological
-foundations for structural conceptual models.
-
+<span class="smallcaps">Guizzardi, G.</span> 2005. Ontological foundations for structural conceptual models.
 </div>
 
 <div id="ref-haberl2019contributions" class="csl-entry">
-
-<span class="smallcaps">Haberl, H., Wiedenhofer, D., Pauliuk, S.,
-Krausmann, F., Müller, D.B., and Fischer-Kowalski, M.</span> 2019.
-Contributions of sociometabolic research to sustainability science.
-*Nature Sustainability* *2*, 3, 173–184.
-
+<span class="smallcaps">Haberl, H., Wiedenhofer, D., Pauliuk, S., Krausmann, F., Müller, D.B., and Fischer-Kowalski, M.</span> 2019. Contributions of sociometabolic research to sustainability science. <em>Nature Sustainability</em> <em>2</em>, 3, 173–184.
 </div>
 
 <div id="ref-kiddee2013electronic" class="csl-entry">
-
-<span class="smallcaps">Kiddee, P., Naidu, R., and Wong, M.H.</span>
-2013. Electronic waste management approaches: An overview. *Waste
-management* *33*, 5, 1237–1250.
-
+<span class="smallcaps">Kiddee, P., Naidu, R., and Wong, M.H.</span> 2013. Electronic waste management approaches: An overview. <em>Waste management</em> <em>33</em>, 5, 1237–1250.
 </div>
 
 <div id="ref-lamb2017human" class="csl-entry">
-
-<span class="smallcaps">Lamb, W.F. and Steinberger, J.K.</span> 2017.
-Human well-being and climate change mitigation. *Wiley Interdisciplinary
-Reviews: Climate Change* *8*, 6, e485.
-
+<span class="smallcaps">Lamb, W.F. and Steinberger, J.K.</span> 2017. Human well-being and climate change mitigation. <em>Wiley Interdisciplinary Reviews: Climate Change</em> <em>8</em>, 6, e485.
 </div>
 
 <div id="ref-lankton2015technology" class="csl-entry">
-
-<span class="smallcaps">Lankton, N.K., McKnight, D.H., and Tripp,
-J.</span> 2015. Technology, humanness, and trust: Rethinking trust in
-technology. *Journal of the Association for Information Systems* *16*,
-10, 1.
-
+<span class="smallcaps">Lankton, N.K., McKnight, D.H., and Tripp, J.</span> 2015. Technology, humanness, and trust: Rethinking trust in technology. <em>Journal of the Association for Information Systems</em> <em>16</em>, 10, 1.
 </div>
 
 <div id="ref-lopez2023sous" class="csl-entry">
-
-<span class="smallcaps">Lopez, F. and Diguet, C.</span> 2023. *Sous le
-feu numérique spatialités et <span class="nocase">é</span>nergies des
-data centers*.
-
+<span class="smallcaps">Lopez, F. and Diguet, C.</span> 2023. <em>Sous le feu numérique spatialités et énergies des data centers</em>.
 </div>
 
 <div id="ref-max1991human" class="csl-entry">
-
-<span class="smallcaps">Max-Neef, M.A., Elizalde, A., and Hopenhayn,
-M.</span> 1991. *Human scale development: Conception, application and
-further reflections*.
-
+<span class="smallcaps">Max-Neef, M.A., Elizalde, A., and Hopenhayn, M.</span> 1991. <em>Human scale development: Conception, application and further reflections</em>.
 </div>
 
 <div id="ref-mayer1995integrative" class="csl-entry">
-
-<span class="smallcaps">Mayer, R.C., Davis, J.H., and Schoorman,
-F.D.</span> 1995. An integrative model of organizational trust. *Academy
-of management review* *20*, 3, 709–734.
-
+<span class="smallcaps">Mayer, R.C., Davis, J.H., and Schoorman, F.D.</span> 1995. An integrative model of organizational trust. <em>Academy of management review</em> <em>20</em>, 3, 709–734.
 </div>
 
 <div id="ref-meadows2018limits" class="csl-entry">
-
-<span class="smallcaps">Meadows, D.H., Meadows, D.L., Randers, J., and
-Behrens, W.W.</span> 2018. The limits to growth. In: *Green planet
-blues*. Routledge, 25–29.
-
+<span class="smallcaps">Meadows, D.H., Meadows, D.L., Randers, J., and Behrens, W.W.</span> 2018. The limits to growth. In: <em>Green planet blues</em>. Routledge, 25–29.
 </div>
 
 <div id="ref-mollen2024governing" class="csl-entry">
-
-<span class="smallcaps">Mollen, A., Keilbach, J., Brodie, P., et
-al.</span> 2024. Governing digital infrastructures for a secure and
-sustainable future. *Available at SSRN 4879449*.
-
+<span class="smallcaps">Mollen, A., Keilbach, J., Brodie, P., et al.</span> 2024. Governing digital infrastructures for a secure and sustainable future. <em>Available at SSRN 4879449</em>.
 </div>
 
 <div id="ref-morand2024mlca" class="csl-entry">
-
-<span class="smallcaps">Morand, C., Ligozat, A.-L., and Névéol,
-A.</span> 2024. Mlca: A tool for machine learning life cycle assessment.
-*2024 10th international conference on ICT for sustainability (ICT4S)*,
-IEEE, 227–238.
-
+<span class="smallcaps">Morand, C., Ligozat, A.-L., and Névéol, A.</span> 2024. Mlca: A tool for machine learning life cycle assessment. <em>2024 10th international conference on ICT for sustainability (ICT4S)</em>, IEEE, 227–238.
 </div>
 
 <div id="ref-newman2013costs" class="csl-entry">
-
-<span class="smallcaps">Newman, N.</span> 2013. The costs of lost
-privacy: Consumer harm and rising economic inequality in the age of
-google. *Wm. Mitchell L. Rev.* *40*, 849.
-
+<span class="smallcaps">Newman, N.</span> 2013. The costs of lost privacy: Consumer harm and rising economic inequality in the age of google. <em>Wm. Mitchell L. Rev.</em> <em>40</em>, 849.
 </div>
 
 <div id="ref-preukschat2021self" class="csl-entry">
-
-<span class="smallcaps">Preukschat, A. and Reed, D.</span> 2021.
-*Self-sovereign identity*. Manning Publications.
-
+<span class="smallcaps">Preukschat, A. and Reed, D.</span> 2021. <em>Self-sovereign identity</em>. Manning Publications.
 </div>
 
 <div id="ref-saberikamarposhti2024cultivating" class="csl-entry">
-
-<span class="smallcaps">SaberiKamarposhti, M., Ng, K.-W., Yadollahi, M.,
-Kamyab, H., Cheng, J., and Khorami, M.</span> 2024. Cultivating a
-sustainable future in the artificial intelligence era: A comprehensive
-assessment of greenhouse gas emissions and removals in agriculture.
-*Environmental Research* *250*, 118528.
-
+<span class="smallcaps">SaberiKamarposhti, M., Ng, K.-W., Yadollahi, M., Kamyab, H., Cheng, J., and Khorami, M.</span> 2024. Cultivating a sustainable future in the artificial intelligence era: A comprehensive assessment of greenhouse gas emissions and removals in agriculture. <em>Environmental Research</em> <em>250</em>, 118528.
 </div>
 
 <div id="ref-sadin2016silicolonisation" class="csl-entry">
-
-<span class="smallcaps">Sadin, É.</span> 2016. *La silicolonisation du
-monde: L’irrésistible expansion du libéralisme numérique*. L’échappée.
-
+<span class="smallcaps">Sadin, É.</span> 2016. <em>La silicolonisation du monde: L’irrésistible expansion du libéralisme numérique</em>. L’échappée.
 </div>
 
 <div id="ref-schoormann2023artificial" class="csl-entry">
-
-<span class="smallcaps">Schoormann, T., Strobel, G., Möller, F., Petrik,
-D., and Zschech, P.</span> 2023. Artificial intelligence for
-sustainability—a systematic review of information systems literature.
-*Communications of the Association for Information Systems* *52*, 1, 8.
-
+<span class="smallcaps">Schoormann, T., Strobel, G., Möller, F., Petrik, D., and Zschech, P.</span> 2023. Artificial intelligence for sustainability—a systematic review of information systems literature. <em>Communications of the Association for Information Systems</em> <em>52</em>, 1, 8.
 </div>
 
 <div id="ref-stahl2023systematic" class="csl-entry">
-
-<span class="smallcaps">Stahl, B.C., Antoniou, J., Bhalla, N., et
-al.</span> 2023. A systematic review of artificial intelligence impact
-assessments. *Artificial Intelligence Review* *56*, 11, 12799–12831.
-
+<span class="smallcaps">Stahl, B.C., Antoniou, J., Bhalla, N., et al.</span> 2023. A systematic review of artificial intelligence impact assessments. <em>Artificial Intelligence Review</em> <em>56</em>, 11, 12799–12831.
 </div>
 
 <div id="ref-stanley2021anger" class="csl-entry">
-
-<span class="smallcaps">Stanley, S.K., Hogg, T.L., Leviston, Z., and
-Walker, I.</span> 2021. From anger to action: Differential impacts of
-eco-anxiety, eco-depression, and eco-anger on climate action and
-wellbeing. *The Journal of Climate Change and Health* *1*, 100003.
-
+<span class="smallcaps">Stanley, S.K., Hogg, T.L., Leviston, Z., and Walker, I.</span> 2021. From anger to action: Differential impacts of eco-anxiety, eco-depression, and eco-anger on climate action and wellbeing. <em>The Journal of Climate Change and Health</em> <em>1</em>, 100003.
 </div>
 
 <div id="ref-turnheim2023historical" class="csl-entry">
-
-<span class="smallcaps">Turnheim, B.</span> 2023. The historical
-dismantling of tramways as a case of destabilisation and phase-out of
-established system. *Proceedings of the National Academy of Sciences*
-*120*, 47, e2206227120.
-
+<span class="smallcaps">Turnheim, B.</span> 2023. The historical dismantling of tramways as a case of destabilisation and phase-out of established system. <em>Proceedings of the National Academy of Sciences</em> <em>120</em>, 47, e2206227120.
 </div>
 
 <div id="ref-verdecchia2023systematic" class="csl-entry">
-
-<span class="smallcaps">Verdecchia, R., Sallou, J., and Cruz, L.</span>
-2023. A systematic review of green AI. *Wiley Interdisciplinary Reviews:
-Data Mining and Knowledge Discovery* *13*, 4, e1507.
-
+<span class="smallcaps">Verdecchia, R., Sallou, J., and Cruz, L.</span> 2023. A systematic review of green AI. <em>Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery</em> <em>13</em>, 4, e1507.
 </div>
 
 <div id="ref-vrain2024automation" class="csl-entry">
-
-<span class="smallcaps">Vrain, E. and Wilson, C.</span> 2024. Automation
-acceptance for sustainable digital daily life. *2024 10th international
-conference on ICT for sustainability (ICT4S)*, IEEE, 10–19.
-
+<span class="smallcaps">Vrain, E. and Wilson, C.</span> 2024. Automation acceptance for sustainable digital daily life. <em>2024 10th international conference on ICT for sustainability (ICT4S)</em>, IEEE, 10–19.
 </div>
 
 <div id="ref-wilson2024evidence" class="csl-entry">
-
-<span class="smallcaps">Wilson, C., Agnew, M., Amanta, F., Van Fan, Y.,
-Kumar, P., and Seger, M.</span> 2024. Evidence synthesis of indirect
-impacts of digitalisation on energy and emissions. *2024 10th
-international conference on ICT for sustainability (ICT4S)*, IEEE,
-116–127.
-
+<span class="smallcaps">Wilson, C., Agnew, M., Amanta, F., Van Fan, Y., Kumar, P., and Seger, M.</span> 2024. Evidence synthesis of indirect impacts of digitalisation on energy and emissions. <em>2024 10th international conference on ICT for sustainability (ICT4S)</em>, IEEE, 116–127.
 </div>
 
 </div>
 
-[^1]: ce concept sous-tend l’idée que la disponibilité et les performances
-de l’IA peuvent devenir si grandes qu’il est susceptible d’impacter
-directement de nombreuses activités humaines, au delà des utilisations
-traditionnelles de l’IA.
 
-[^2]: **Blockchain, aspects socio-téchniques**: voir thèses de Nicolas Six
-(2019-2023) et Claudia Négri (2019-2023)
+[^1]: this concept underpins the idea that the availability and performance of AI can become so great that it is likely to directly impact many human activities, beyond traditional uses of AI.
 
-[^3]: **Confiance et IA** voir thèses d’Eddy Kiomba (2022-2025) et Yuntian
-Ding (2024-2027)
+[^2]: **Blockchain, socio-technical aspects**: see the theses of Nicolas Six (2019–2023) and Claudia Négri (2019–2023).
 
-[^4]: Dans ce document, j’emploie une terminologie légèrement différente —
-**Flux-Infrastructure-Besoins (FIB)** — car elle est plus parlante pour
-refléter les matérialités des concepts en jeu.
+[^3]: **Trust and AI**: see the theses of Eddy Kiomba (2022–2025) and Yuntian Ding (2024–2027).
 
-[^5]: Deloitte prévoit une augmentation de la consommation électrique liée
-à l’IA de 1680 TWh à 3550 TWh par an d’ici 2050.
+[^4]: In this document, I use slightly different terminology — **Flows-Infrastructure-Needs (FIB)** — as it more clearly reflects the materialities of the concepts at play.
 
-[^6]: https://s.nextnet.top/tram “Le tramway de Bordeaux, une histoire,”
-Christophe Dabitch, Editions Sud Ouest
+[^5]: Deloitte forecasts an increase in electricity consumption linked to AI from 1680 TWh to 3550 TWh per year by 2050.
 
-[^7]: le carburant des voitures, les consommables, les marchandises
-transportées…
+[^6]: https://s.nextnet.top/tram “Le tramway de Bordeaux, une histoire,” Christophe Dabitch, Editions Sud Ouest.
 
-[^8]: les nouvelles infrastructures routières construites à Bordeaux pour
-remplacer le tram: les voitures, la voirie, les parkings pour les
-voitures, les stations-service…
+[^7]: car fuel, consumables, transported goods…
 
-[^9]: Les besoins sont les bénéfices individuels espérés par la mise en
-place de l’infrastructure: une liberté supplémentaire de déplacement, un
-confort amélioré et un gain de temps.
+[^8]: the new road infrastructures built in Bordeaux to replace the tram: cars, roadways, parking lots, gas stations…
 
-[^10]: l’augmentation du nombre de routes disponibles augmente le nombre
-de voitures et d’usages de celle-ci.
+[^9]: Needs are the individual benefits expected from the establishment of infrastructure: additional freedom of movement, improved comfort, and time savings.
 
-[^11]: l’usage de la voiture individuelle permet un gain de temps dans les
-déplacements, ce qui va inciter les habitants à aller se loger plus loin
-du centre dans ces zones dont l’accès est rendu nouvellement possible
-grâce à la voiture entrainant une augmentation de l’usage.
+[^10]: the increase in the number of available roads increases the number of cars and their uses.
 
-[^12]: Dans le cas du tram de bordeaux, celui-ci a été facilité par la
-dégradation du réseau au sortir de la guerre, et donc une réduction
-exogène de l’infrastructure.
+[^11]: the use of individual cars allows time savings in commuting, which encourages residents to live further from the city center in areas newly accessible thanks to cars, leading to increased use.
 
-[^13]: Pour notre exemple, le contexte d’après-guerre est la priorité
-donnée à la reconstruction, ce qui a facilité l’acceptation de la
-suppression du tram électrique, et son remplacement par son alternative
-plus moderne du bus diesel, toujours de façon exogène.
+[^12]: In the case of Bordeaux’s tram, this was facilitated by the deterioration of the network after the war, leading to an exogenous reduction of infrastructure.
 
-[^14]: L’état précédent du système (période 1900-1946) n’a pu être dépassé
-qu’à la lumière de deux effets exogènes: le délitement de
-l’infrastructure lié aux effets de la Seconde Guerre mondiale, et la
-culture automobile, érigée en symbole de progrès après la Libération et
-l’intervention de l’état centralisateur au travers du commissariat à la
-reconstruction.
+[^13]: For our example, the post-war context gave priority to reconstruction, which facilitated the acceptance of the removal of the electric tram and its replacement by the more modern diesel bus, again exogenously.
 
-[^15]: Plusieurs autres facteurs ont été avancés pour expliquer le manque
-d’entretien du réseau historique. Parmi eux : les contraintes
-esthétiques ayant conduit à l’adoption de systèmes APS peu fiables,
-l’effet repoussoir exercé sur les classes bourgeoises par la facilité
-d’accès des classes populaires au centre-ville, l’absence de lobbying en
-faveur de la maintenance des infrastructures existantes, ou encore le
-désengagement progressif de l’État \[[Turnheim
-2023](#ref-turnheim2023historical)\].
+[^14]: The previous state of the system (1900–1946 period) was overcome only through two exogenous effects: the deterioration of infrastructure due to the Second World War, and the automobile culture, erected as a symbol of progress after the Liberation, combined with intervention by the central state through the Commissariat for Reconstruction.
+
+[^15]: Several other factors have been put forward to explain the lack of maintenance of the historical network. Among them: aesthetic constraints leading to the adoption of unreliable APS systems, the repelling effect felt by bourgeois classes due to the easy access of working classes to the city center, the absence of lobbying for the maintenance of existing infrastructures, and the progressive disengagement of the State \[[Turnheim 2023](#ref-turnheim2023historical)\].
 
 [^16]: https://ontouml.org/
 
-[^17]: **Hédonique**: Relatif au plaisir immédiat, l’approche hédonique du
-bien-être évalue l’expérience d’un individu en fonction des affects
-positifs et négatifs qu’il ressent, ainsi que de la satisfaction de ses
-désirs ou préférences.
+[^17]: **Hedonic**: Related to immediate pleasure, the hedonic approach to well-being evaluates an individual’s experience based on the positive and negative affects they feel, as well as the satisfaction of their desires or preferences.
 
-[^18]: **Eudémonique**: L’approche eudémonique du bien-être se concentre
-sur la réalisation de soi, le sens donné à la vie, et l’actualisation du
-potentiel personnel, au-delà du simple plaisir ou de la satisfaction
-momentanée.
+[^18]: **Eudaimonic**: The eudaimonic approach to well-being focuses on self-realization, life meaning, and the actualization of personal potential, beyond mere pleasure or momentary satisfaction.
 
-[^19]: à titre d’exemple, les bouchons sur la rocade sont une externalité
-négative perçue, alors que la disparition d’une espèce d’amphibien lors
-de la construction d’une autoroute est latente.
+[^19]: for example, traffic jams on the ring road are a perceived negative externality, while the disappearance of an amphibian species during highway construction is latent.
 
-[^20]: le phénomène d’éco-anxiété serait la manifestation la plus directe
-des externalités latente: les personnes touchées souffrent du manque de
-perspectives dans l’avenir et sur les générations futures, sans
-nécessairement en percevoir les effets immédiats \[[Stanley et al.
-2021](#ref-stanley2021anger)\].
+[^20]: the phenomenon of eco-anxiety is the most direct manifestation of latent externalities: affected individuals suffer from a lack of prospects for the future and for future generations, without necessarily perceiving immediate effects \[[Stanley et al. 2021](#ref-stanley2021anger)\].
 
-[^21]: l’approche par scénario est inspirée de \[[Meadows et al.
-2018](#ref-meadows2018limits)\]. Même si les scénarios de décroissance
-et d’effondrement sont rarement abordés dans la recherche en
-informatique \[[Bugeau and Ligozat 2023](#ref-bugeau2023digital)\], nous
-pensons qu’il est pertinent de les présenter dans notre cadre
-conceptuel.
+[^21]: the scenario-based approach is inspired by \[[Meadows et al. 2018](#ref-meadows2018limits)\]. Even if degrowth and collapse scenarios are rarely addressed in computer science research \[[Bugeau and Ligozat 2023](#ref-bugeau2023digital)\], we believe it is relevant to present them in our conceptual framework.
 
-[^22]: de nombreuses études portant sur le cycle de vie des appareils
-informatiques et de la gestion des e-waste ont été publiée montrant le
-problème et les limites des solutions \[[Kiddee et al.
-2013](#ref-kiddee2013electronic)\]
+[^22]: many studies on the life cycle of computing devices and e-waste management have been published, showing the problem and the limits of solutions \[[Kiddee et al. 2013](#ref-kiddee2013electronic)\].
 
-[^23]: Cycle de vie de l’IA: collecte de données, préparation, extraction
-de caractéristiques, entraînement, test et inférence
+[^23]: AI lifecycle: data collection, preparation, feature extraction, training, testing, and inference.
 
-[^24]: **IA et ER**: étant donné le caractère parfois intermittant des ER
-et leur part dans la puissance installée, cette condition n’est pas
-réalisée aujourd’hui, même si de nombreux acteurs du cloud achètent les
-certificats ER correspondants et investissent dans les ER
-(e.g. https://s.nextnet.top/clean\_apple).
+[^24]: **AI and Renewable Energy**: given the sometimes intermittent nature of renewables and their share in installed power, this condition is not met today, even though many cloud providers purchase renewable energy certificates and invest in renewables (e.g. https://s.nextnet.top/clean_apple).
 
-[^25]: 60 % du poids d’une éolienne est constitué de béton, qui n’est pas
-recyclable en boucle fermée, mais seulement valorisable sous forme de
-granulat.
+[^25]: 60% of the weight of a wind turbine consists of concrete, which cannot be recycled in a closed loop, only downcycled as aggregate.
 
-[^26]: le **model drift** découle de la disparité grandissante entre les
-données utilisées pour entrainer le modèle et celle actuellement
-disponible. Dans le cas des LLM, ce phénomène peut participer à la
-désinformation \[[Fastowski and Kasneci
-2024](#ref-fastowski2024understanding)\]
+[^26]: **Model drift** results from the growing disparity between the data used to train the model and the data currently available. In the case of LLMs, this phenomenon can contribute to misinformation \[[Fastowski and Kasneci 2024](#ref-fastowski2024understanding)\].
 
-[^27]: Citons l’autorisation temporaire de la reconnaissance faciale
-automatique pendant les JO de Paris 2024, dont la pérennisation au-delà
-du 31/03/25 est demandée par la préfecture de police
-https://s.42l.fr/JTRs\_YJd.
+[^27]: For example, the temporary authorization of automatic facial recognition during the Paris 2024 Olympics, whose extension beyond 31/03/25 is requested by the Paris police prefecture https://s.42l.fr/JTRs_YJd.
 
-[^28]: Citons par exemple l’utilisation des données privées par Google en
-échange du service GMail \[[Newman 2013](#ref-newman2013costs)\]
+[^28]: For example, the use of private data by Google in exchange for the Gmail service \[[Newman 2013](#ref-newman2013costs)\].
 
-[^29]: Les “Data Annotators” chinois jouent un rôle crucial dans le succès
-de DeepSeek, mais leurs conditions de substistance soulèvent des
-questions éthiques \[[Casilli et al. 2025](#ref-casilli2025human)\]
+[^29]: Chinese “Data Annotators” play a crucial role in the success of DeepSeek, but their subsistence conditions raise ethical concerns \[[Casilli et al. 2025](#ref-casilli2025human)\].
 
-[^30]: l’AI act Européen est un exemple.
+[^30]: the European AI Act is one example.
 
-[^31]: par exemple RGPD en Europe, CPRA en Californie ou PIPL en chine,
-avec des périmètres différents et parfois un privilège d’accès des
-pouvoirs publics (PIPL).
+[^31]: for example GDPR in Europe, CPRA in California, or PIPL in China, with different scopes and sometimes privileged access rights for public authorities (PIPL).
 
-[^32]: le “European Green Deal” est un exemple.
+[^32]: the “European Green Deal” is one example.
 
-[^33]: Même si la pertinence des décisions du régulateur vis-à-vis de la
-soutenabilité de l’infrastructure ICT fait débat \[[Mollen et al.
-2024](#ref-mollen2024governing)\]
+[^33]: Even though the relevance of regulators’ decisions regarding the sustainability of ICT infrastructure is debated \[[Mollen et al. 2024](#ref-mollen2024governing)\].
 
-[^34]: Voir ma participation à la Chaire de Paris 1 : *Pluralisme culturel
-et éthique du numérique*, où nous avons étudié l’impact du moteur de
-recommandation sur la production audiovisuelle européenne.
+[^34]: See my participation in the Paris 1 Chair: *Cultural Pluralism and Digital Ethics*, where we studied the impact of recommendation engines on European audiovisual production.
 
-[^35]: Eric Sadin va jusqu’à suggérer l’instauration d’un nouveau modèle
-civilisationel, décesissant l’être humain de son libre arbitre au profit
-des algorithmes \[[Sadin 2016](#ref-sadin2016silicolonisation)\].
+[^35]: Eric Sadin even suggests the establishment of a new civilizational model, stripping human beings of their free will in favor of algorithms \[[Sadin 2016](#ref-sadin2016silicolonisation)\].
 
-[^36]: Les récentes mises à jour de ChatGPT l’ont rendu extrêmement
-anthropomorphique, ce qui crée une confusion sans précédent quant à la
-confiance que le public peut lui accorder.
+[^36]: Recent updates to ChatGPT have made it highly anthropomorphic, creating unprecedented confusion regarding the level of trust the public may grant it.
 
-[^37]: Les assistants domotiques comme Alexa ou Google Home sont basés sur
-une IA centralisée dans les datacenters des GAFAM. Le projet
-[CUPID25](https://cupid25.miage.dev) vise à proposer une alternative et
-à en évaluer la soutenabilité.
+[^37]: Home assistants such as Alexa or Google Home are based on centralized AI in GAFAM data centers. The project [CUPID25](https://cupid25.miage.dev) aims to propose an alternative and evaluate its sustainability.
 
-[^38]: Nous avons commencé à travailler avec la plateforme Raspberry Pi 5
-et l’accélérateur d’IA Hailo-8, permettant de réduire drastiquement la
-consommation énergétique liée à l’inférence.
+[^38]: We have started working with the Raspberry Pi 5 platform and the Hailo-8 AI accelerator, which drastically reduces energy consumption linked to inference.

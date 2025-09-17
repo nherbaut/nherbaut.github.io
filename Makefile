@@ -4,4 +4,4 @@ clean:
 install:
 	bundle install
 run:
-	bundle exec jekyll liveserve --config _config.yml
+	bundle exec jekyll serve -l -H localhost
