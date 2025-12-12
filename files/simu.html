@@ -18,8 +18,18 @@
     }
     textarea {
       width: 100%;
-      height: 300px;
+      height: 260px;
       font-family: monospace;
+    }
+    #listing {
+      width: 100%;
+      height: 260px;
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      background: #fefefe;
+      white-space: pre;
+      overflow-y: auto;
+      box-sizing: border-box;
     }
     #console {
       width: 100%;
@@ -29,19 +39,25 @@
       overflow-y: auto;
       white-space: pre-wrap;
       background: #f9f9f9;
+      box-sizing: border-box;
     }
     #state {
       border: 1px solid #ccc;
       padding: 0.5rem;
       background: #f0f0f0;
       white-space: pre;
+      box-sizing: border-box;
     }
     input[type="text"] {
       width: 100%;
       font-family: monospace;
+      box-sizing: border-box;
     }
     button {
       font-family: monospace;
+    }
+    .pc-line {
+      background: #fff7a0;
     }
   </style>
 </head>
@@ -49,14 +65,23 @@
   <div id="left">
     <div><strong>Programme ASM</strong></div>
     <textarea id="programArea">
-VAR TOPS0 00
+VAR TOPS0 0xab
+VAR TOPS1 0x00
 start:
-    lda &TOPS0     ; ACC = TOPS0
-    add #01        ; ACC++
-    sta &TOPS0     ; TOPS0 := ACC
-    cmp #0A
-    jl start
+  lda &TOPS0
+  add #01
+  sta &TOPS0
+  cmp #00
+  jne fin:
+  lda &TOPS1
+  add #01
+  sta &TOPS1
+fin:
     </textarea>
+
+    <div><strong>Listing (ligne PC surlignée)</strong></div>
+    <pre id="listing"></pre>
+
     <div>
       <button id="loadBtn">Load</button>
       <button id="runBtn">Run</button>
@@ -86,9 +111,10 @@ class CPU {
     this.pc = 0;
     this.cmpFlag = null;   // -1, 0, 1
     this.program = [];     // {op, args}
-    this.labels = {};      // label -> index
+    this.labels = {};      // label -> instr index
     this.vars = {};        // name -> address
     this.nextVarAddr = 0;
+    this.programLineMap = []; // instr index -> source line index
   }
 
   static stripComment(line) {
@@ -137,6 +163,9 @@ class CPU {
 
   resolveJumpTarget(tok) {
     tok = tok.trim();
+    if (tok.endsWith(":")) {
+      tok = tok.slice(0, -1);
+    }
     if (tok in this.labels) {
       return this.labels[tok];
     }
@@ -200,7 +229,9 @@ class CPU {
       const ax = this.resolveAddress(inner);
       const ptr = this.mem[ax];
       this.mem[ptr] = this.acc & 0xFF;
-      if (logFn) logFn(`[WRITE] mem[${ptr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`);
+      if (logFn) logFn(
+        `[WRITE] mem[${ptr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`
+      );
       return;
     }
 
@@ -214,7 +245,9 @@ class CPU {
         addr = this.parseIntFlexible(inner) & 0xFFFF;
       }
       this.mem[addr] = this.acc & 0xFF;
-      if (logFn) logFn(`[WRITE] mem[${addr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`);
+      if (logFn) logFn(
+        `[WRITE] mem[${addr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`
+      );
       return;
     }
 
@@ -223,13 +256,17 @@ class CPU {
       const base = this.vars[tok];
       const ptr = this.mem[base];         // adresse contenue dans la variable
       this.mem[ptr] = this.acc & 0xFF;
-      if (logFn) logFn(`[WRITE] mem[${ptr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`);
+      if (logFn) logFn(
+        `[WRITE] mem[${ptr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`
+      );
       return;
     }
 
     const addr = this.parseIntFlexible(tok) & 0xFFFF;
     this.mem[addr] = this.acc & 0xFF;
-    if (logFn) logFn(`[WRITE] mem[${addr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`);
+    if (logFn) logFn(
+      `[WRITE] mem[${addr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`
+    );
   }
 
   assemble(lines) {
@@ -240,30 +277,38 @@ class CPU {
     this.mem.fill(0);
     this.pc = 0;
     this.cmpFlag = null;
+    this.programLineMap = [];
 
     const cleaned = [];
     let pc = 0;
 
-    for (let raw of lines) {
+    for (let i = 0; i < lines.length; i++) {
+      const raw = lines[i];
       const line = CPU.stripComment(raw);
       if (!line) {
-        cleaned.push({ label: null, item: null });
+        cleaned.push({ label: null, item: null, src: i });
         continue;
       }
+
       let label = null;
       let rest = line;
-      const colon = line.indexOf(":");
-      if (colon >= 0) {
-        label = line.slice(0, colon).trim();
-        rest = line.slice(colon + 1).trim();
+
+      // label uniquement si le premier "token" finit par :
+      const tokens = rest.split(/\s+/);
+      const first = tokens[0];
+      if (first.endsWith(":")) {
+        label = first.slice(0, -1);
+        rest = rest.slice(first.length).trim();
         if (label) {
           this.labels[label] = pc;
         }
       }
+
       if (!rest) {
-        cleaned.push({ label, item: null });
+        cleaned.push({ label, item: null, src: i });
         continue;
       }
+
       const parts = rest.split(/\s+/);
       const op = parts[0].toUpperCase();
       const args = parts.slice(1);
@@ -275,19 +320,25 @@ class CPU {
         const name = args[0];
         const val  = this.parseIntFlexible(args[1]);
         this.allocVar(name, val);
-        cleaned.push({ label, item: { op: "VAR", args: [name, val] } });
+        cleaned.push({ label, item: { op: "VAR", args: [name, val] }, src: i });
         continue;
       }
 
-      cleaned.push({ label, item: { op, args } });
+      cleaned.push({ label, item: { op, args }, src: i });
       pc += 1;
     }
 
     this.program = [];
-    for (const { label, item } of cleaned) {
+    this.programLineMap = [];
+    pc = 0;
+
+    for (const row of cleaned) {
+      const { item, src } = row;
       if (!item) continue;
       if (item.op === "VAR") continue;
       this.program.push({ op: item.op, args: item.args });
+      this.programLineMap.push(src);
+      pc += 1;
     }
 
     this.pc = 0;
@@ -350,7 +401,8 @@ class CPU {
         if (low === "jne") doit = (this.cmpFlag !== 0);
       }
       if (doit) {
-        if (target < 0 || target >= this.program.length) {
+        // autoriser target == program.length (saut à la fin du programme)
+        if (target < 0 || target > this.program.length) {
           throw new Error("Cible de saut invalide");
         }
         this.pc = target;
@@ -415,6 +467,8 @@ class CPU {
 const cpu = new CPU();
 const stateDiv = document.getElementById("state");
 const consoleDiv = document.getElementById("console");
+const listingPre = document.getElementById("listing");
+const progArea = document.getElementById("programArea");
 
 function log(msg) {
   consoleDiv.textContent += msg + "\n";
@@ -423,11 +477,38 @@ function log(msg) {
 
 function refreshState() {
   stateDiv.textContent = cpu.formatState();
+  updateListing();
+}
+
+// highlight current PC line in listing
+function updateListing() {
+  const text = progArea.value;
+  const lines = text.split("\n");
+
+  let html = "";
+  for (let i = 0; i < lines.length; i++) {
+    const isPCLine =
+      cpu.pc >= 0 &&
+      cpu.pc < cpu.programLineMap.length &&
+      cpu.programLineMap[cpu.pc] === i;
+
+    const safe = lines[i]
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+
+    if (isPCLine) {
+      html += `<span class="pc-line">${safe}</span>\n`;
+    } else {
+      html += `<span>${safe}</span>\n`;
+    }
+  }
+  listingPre.innerHTML = html;
 }
 
 document.getElementById("loadBtn").onclick = () => {
   consoleDiv.textContent = "";
-  const txt = document.getElementById("programArea").value;
+  const txt = progArea.value;
   const lines = txt.split("\n");
   try {
     cpu.assemble(lines);
@@ -457,7 +538,7 @@ document.getElementById("stepBtn").onclick = () => {
 };
 
 document.getElementById("resetBtn").onclick = () => {
-  const txt = document.getElementById("programArea").value;
+  const txt = progArea.value;
   const lines = txt.split("\n");
   consoleDiv.textContent = "";
   try {
@@ -482,8 +563,9 @@ document.getElementById("execLineBtn").onclick = () => {
   refreshState();
 };
 
+// initial
+updateListing();
 refreshState();
 </script>
 </body>
 </html>
-
