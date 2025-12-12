@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulateur ASM (accumulateur 8 bits)</title>
+  <style>
+    body {
+      font-family: monospace;
+      display: flex;
+      gap: 1rem;
+      margin: 1rem;
+    }
+    #left, #right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    textarea {
+      width: 100%;
+      height: 300px;
+      font-family: monospace;
+    }
+    #console {
+      width: 100%;
+      height: 150px;
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      background: #f9f9f9;
+    }
+    #state {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      background: #f0f0f0;
+      white-space: pre;
+    }
+    input[type="text"] {
+      width: 100%;
+      font-family: monospace;
+    }
+    button {
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <div id="left">
+    <div><strong>Programme ASM</strong></div>
+    <textarea id="programArea">
+VAR TOPS0 00
+start:
+    lda &TOPS0     ; ACC = TOPS0
+    add #01        ; ACC++
+    sta &TOPS0     ; TOPS0 := ACC
+    cmp #0A
+    jl start
+    </textarea>
+    <div>
+      <button id="loadBtn">Load</button>
+      <button id="runBtn">Run</button>
+      <button id="stepBtn">Step</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+
+  <div id="right">
+    <div><strong>Instruction directe</strong></div>
+    <input type="text" id="lineInput" placeholder="Ex : lda #10, sta &TOPS0, lda TOPS0">
+    <button id="execLineBtn">Exec</button>
+
+    <div><strong>État CPU</strong></div>
+    <div id="state"></div>
+
+    <div><strong>Console</strong></div>
+    <div id="console"></div>
+  </div>
+
+<script>
+class CPU {
+  constructor(memSize = 65536) {
+    this.memSize = memSize;
+    this.mem = new Uint8Array(memSize);
+    this.acc = 0;
+    this.pc = 0;
+    this.cmpFlag = null;   // -1, 0, 1
+    this.program = [];     // {op, args}
+    this.labels = {};      // label -> index
+    this.vars = {};        // name -> address
+    this.nextVarAddr = 0;
+  }
+
+  static stripComment(line) {
+    const idx = line.indexOf(";");
+    return (idx >= 0 ? line.slice(0, idx) : line).trim();
+  }
+
+  parseIntFlexible(tok) {
+    tok = tok.trim();
+    if (tok.startsWith("&")) {
+      tok = tok.slice(1);
+    }
+    if (tok.toLowerCase().startsWith("0x")) {
+      return parseInt(tok.slice(2), 16);
+    }
+    if (tok.endsWith("h") || tok.endsWith("H")) {
+      return parseInt(tok.slice(0, -1), 16);
+    }
+    return parseInt(tok, 10);
+  }
+
+  allocVar(name, value) {
+    if (name in this.vars) {
+      throw new Error("Variable déjà définie: " + name);
+    }
+    const addr = this.nextVarAddr & 0xFFFF;
+    this.nextVarAddr = (this.nextVarAddr + 1) & 0xFFFF;
+    this.vars[name] = addr;
+    this.mem[addr] = value & 0xFF;
+  }
+
+  resolveAddress(tok) {
+    tok = tok.trim();
+    if (tok.startsWith("&")) {
+      const inner = tok.slice(1);
+      if (inner in this.vars) {
+        return this.vars[inner];
+      }
+      return this.parseIntFlexible(inner) & 0xFFFF;
+    }
+    if (tok in this.vars) {
+      return this.vars[tok];
+    }
+    return this.parseIntFlexible(tok) & 0xFFFF;
+  }
+
+  resolveJumpTarget(tok) {
+    tok = tok.trim();
+    if (tok in this.labels) {
+      return this.labels[tok];
+    }
+    return this.parseIntFlexible(tok);
+  }
+
+  // lecture d’un opérande (pour lda/add/sub/and/xor/cmp)
+  readValue(tok) {
+    tok = tok.trim();
+
+    // M(x) : valeur à l'adresse située elle-même à l'adresse x
+    if (tok.startsWith("M(") && tok.endsWith(")")) {
+      const inner = tok.slice(2, -1).trim();
+      const ax = this.resolveAddress(inner);
+      const ptr = this.mem[ax];
+      return this.mem[ptr];
+    }
+
+    // immédiat
+    if (tok.startsWith("#")) {
+      const v = this.parseIntFlexible(tok.slice(1));
+      return v & 0xFF;
+    }
+
+    // &SYM ou &1234 : adresse directe (var ou littérale)
+    if (tok.startsWith("&")) {
+      const inner = tok.slice(1);
+      let addr;
+      if (inner in this.vars) {
+        addr = this.vars[inner];
+      } else {
+        addr = this.parseIntFlexible(inner) & 0xFFFF;
+      }
+      return this.mem[addr];
+    }
+
+    // symbole simple (variable/pointeur) ou littéral nu
+    if (tok in this.vars) {
+      // sémantique pointeur : TOPS0 contient une adresse
+      const base = this.vars[tok];
+      const ptr = this.mem[base];      // adresse contenue dans la variable
+      return this.mem[ptr];
+    }
+
+    // littéral adresse
+    const addr = this.parseIntFlexible(tok) & 0xFFFF;
+    return this.mem[addr];
+  }
+
+  // écriture de ACC à l’adresse désignée par tok (pour sta)
+  writeAcc(tok, logFn) {
+    tok = tok.trim();
+
+    if (tok.startsWith("#")) {
+      throw new Error("sta n’accepte pas d’immédiat");
+    }
+
+    // M(x) : adresse située elle-même à l’adresse x
+    if (tok.startsWith("M(") && tok.endsWith(")")) {
+      const inner = tok.slice(2, -1).trim();
+      const ax = this.resolveAddress(inner);
+      const ptr = this.mem[ax];
+      this.mem[ptr] = this.acc & 0xFF;
+      if (logFn) logFn(`[WRITE] mem[${ptr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`);
+      return;
+    }
+
+    // &SYM : variable directe ; &1234 : adresse absolue
+    if (tok.startsWith("&")) {
+      const inner = tok.slice(1);
+      let addr;
+      if (inner in this.vars) {
+        addr = this.vars[inner];          // adresse de la variable
+      } else {
+        addr = this.parseIntFlexible(inner) & 0xFFFF;
+      }
+      this.mem[addr] = this.acc & 0xFF;
+      if (logFn) logFn(`[WRITE] mem[${addr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`);
+      return;
+    }
+
+    // symbole simple : pointeur ; littéral nu : adresse directe
+    if (tok in this.vars) {
+      const base = this.vars[tok];
+      const ptr = this.mem[base];         // adresse contenue dans la variable
+      this.mem[ptr] = this.acc & 0xFF;
+      if (logFn) logFn(`[WRITE] mem[${ptr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`);
+      return;
+    }
+
+    const addr = this.parseIntFlexible(tok) & 0xFFFF;
+    this.mem[addr] = this.acc & 0xFF;
+    if (logFn) logFn(`[WRITE] mem[${addr.toString(16).padStart(4,"0").toUpperCase()}] = ${this.acc.toString(16).padStart(2,"0").toUpperCase()}`);
+  }
+
+  assemble(lines) {
+    this.program = [];
+    this.labels = {};
+    this.vars = {};
+    this.nextVarAddr = 0;
+    this.mem.fill(0);
+    this.pc = 0;
+    this.cmpFlag = null;
+
+    const cleaned = [];
+    let pc = 0;
+
+    for (let raw of lines) {
+      const line = CPU.stripComment(raw);
+      if (!line) {
+        cleaned.push({ label: null, item: null });
+        continue;
+      }
+      let label = null;
+      let rest = line;
+      const colon = line.indexOf(":");
+      if (colon >= 0) {
+        label = line.slice(0, colon).trim();
+        rest = line.slice(colon + 1).trim();
+        if (label) {
+          this.labels[label] = pc;
+        }
+      }
+      if (!rest) {
+        cleaned.push({ label, item: null });
+        continue;
+      }
+      const parts = rest.split(/\s+/);
+      const op = parts[0].toUpperCase();
+      const args = parts.slice(1);
+
+      if (op === "VAR") {
+        if (args.length !== 2) {
+          throw new Error("Syntaxe VAR : VAR nom valeur");
+        }
+        const name = args[0];
+        const val  = this.parseIntFlexible(args[1]);
+        this.allocVar(name, val);
+        cleaned.push({ label, item: { op: "VAR", args: [name, val] } });
+        continue;
+      }
+
+      cleaned.push({ label, item: { op, args } });
+      pc += 1;
+    }
+
+    this.program = [];
+    for (const { label, item } of cleaned) {
+      if (!item) continue;
+      if (item.op === "VAR") continue;
+      this.program.push({ op: item.op, args: item.args });
+    }
+
+    this.pc = 0;
+    this.cmpFlag = null;
+  }
+
+  executeInstruction(op, args, usePc, logFn) {
+    const low = op.toLowerCase();
+
+    if (low === "lda") {
+      if (args.length !== 1) throw new Error("lda nécessite un opérande");
+      this.acc = this.readValue(args[0]) & 0xFF;
+      return;
+    }
+
+    if (low === "sta") {
+      if (args.length !== 1) throw new Error("sta nécessite un opérande");
+      this.writeAcc(args[0], logFn);
+      return;
+    }
+
+    if (["add","sub","and","xor"].includes(low)) {
+      if (args.length !== 1) throw new Error(op + " nécessite un opérande");
+      const v = this.readValue(args[0]);
+      if (low === "add") this.acc = (this.acc + v) & 0xFF;
+      if (low === "sub") this.acc = (this.acc - v) & 0xFF;
+      if (low === "and") this.acc = (this.acc & v) & 0xFF;
+      if (low === "xor") this.acc = (this.acc ^ v) & 0xFF;
+      return;
+    }
+
+    if (low === "not") {
+      this.acc = (~this.acc) & 0xFF;
+      return;
+    }
+
+    if (low === "cmp") {
+      if (args.length !== 1) throw new Error("cmp nécessite un opérande");
+      const v = this.readValue(args[0]);
+      const a = this.acc, b = v & 0xFF;
+      if (a < b) this.cmpFlag = -1;
+      else if (a > b) this.cmpFlag = 1;
+      else this.cmpFlag = 0;
+      return;
+    }
+
+    if (["jmp","jl","jle","jg","jge","je","jne"].includes(low)) {
+      if (!usePc) return;
+      if (args.length !== 1) throw new Error(op + " nécessite un opérande");
+      const target = this.resolveJumpTarget(args[0]);
+      let doit = false;
+      if (low === "jmp") {
+        doit = true;
+      } else if (this.cmpFlag !== null) {
+        if (low === "jl")  doit = (this.cmpFlag === -1);
+        if (low === "jle") doit = (this.cmpFlag === -1 || this.cmpFlag === 0);
+        if (low === "jg")  doit = (this.cmpFlag === 1);
+        if (low === "jge") doit = (this.cmpFlag === 1 || this.cmpFlag === 0);
+        if (low === "je")  doit = (this.cmpFlag === 0);
+        if (low === "jne") doit = (this.cmpFlag !== 0);
+      }
+      if (doit) {
+        if (target < 0 || target >= this.program.length) {
+          throw new Error("Cible de saut invalide");
+        }
+        this.pc = target;
+      }
+      return;
+    }
+
+    throw new Error("Instruction inconnue : " + op);
+  }
+
+  step(logFn) {
+    if (this.pc < 0 || this.pc >= this.program.length) {
+      throw new Error("PC hors programme");
+    }
+    const instr = this.program[this.pc];
+    this.pc += 1;
+    this.executeInstruction(instr.op, instr.args, true, logFn);
+  }
+
+  run(maxSteps, logFn) {
+    let steps = 0;
+    while (steps < maxSteps && this.pc >= 0 && this.pc < this.program.length) {
+      this.step(logFn);
+      steps++;
+    }
+  }
+
+  execLine(line, logFn) {
+    const stripped = CPU.stripComment(line);
+    if (!stripped) return;
+    if (stripped.includes(":")) {
+      throw new Error("Labels interdits en mode ligne unique.");
+    }
+    const parts = stripped.split(/\s+/);
+    const op = parts[0].toUpperCase();
+    const args = parts.slice(1);
+    this.executeInstruction(op, args, false, logFn);
+  }
+
+  formatState() {
+    const pcStr  = this.pc.toString(16).padStart(4,"0").toUpperCase();
+    const accStr = this.acc.toString(16).padStart(2,"0").toUpperCase();
+    const cmpMap = { "-1":"<", "0":"=", "1":">", "null":"None" };
+    const cmpStr = cmpMap[String(this.cmpFlag)] ?? "None";
+    let s = "";
+    s += `PC  = ${pcStr}\n`;
+    s += `ACC = ${accStr}\n`;
+    s += `CMP = ${cmpStr}\n`;
+    if (Object.keys(this.vars).length > 0) {
+      s += "Variables:\n";
+      for (const [name, addr] of Object.entries(this.vars)) {
+        const addrStr = addr.toString(16).padStart(4,"0").toUpperCase();
+        const valStr  = this.mem[addr].toString(16).padStart(2,"0").toUpperCase();
+        s += `  ${name} @ ${addrStr} = ${valStr}\n`;
+      }
+    }
+    return s;
+  }
+}
+
+// ---- UI ----
+const cpu = new CPU();
+const stateDiv = document.getElementById("state");
+const consoleDiv = document.getElementById("console");
+
+function log(msg) {
+  consoleDiv.textContent += msg + "\n";
+  consoleDiv.scrollTop = consoleDiv.scrollHeight;
+}
+
+function refreshState() {
+  stateDiv.textContent = cpu.formatState();
+}
+
+document.getElementById("loadBtn").onclick = () => {
+  consoleDiv.textContent = "";
+  const txt = document.getElementById("programArea").value;
+  const lines = txt.split("\n");
+  try {
+    cpu.assemble(lines);
+    log("Programme chargé.");
+  } catch (e) {
+    log("Erreur d'assemblage: " + e.message);
+  }
+  refreshState();
+};
+
+document.getElementById("runBtn").onclick = () => {
+  try {
+    cpu.run(10000, log);
+  } catch (e) {
+    log("Erreur: " + e.message);
+  }
+  refreshState();
+};
+
+document.getElementById("stepBtn").onclick = () => {
+  try {
+    cpu.step(log);
+  } catch (e) {
+    log("Erreur: " + e.message);
+  }
+  refreshState();
+};
+
+document.getElementById("resetBtn").onclick = () => {
+  const txt = document.getElementById("programArea").value;
+  const lines = txt.split("\n");
+  consoleDiv.textContent = "";
+  try {
+    cpu.assemble(lines);
+    log("Reset + rechargement du programme.");
+  } catch (e) {
+    log("Erreur d'assemblage: " + e.message);
+  }
+  refreshState();
+};
+
+document.getElementById("execLineBtn").onclick = () => {
+  const lineInput = document.getElementById("lineInput");
+  const line = lineInput.value;
+  if (!line.trim()) return;
+  try {
+    cpu.execLine(line, log);
+  } catch (e) {
+    log("Erreur: " + e.message);
+  }
+  lineInput.value = "";
+  refreshState();
+};
+
+refreshState();
+</script>
+</body>
+</html>
+
