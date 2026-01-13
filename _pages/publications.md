@@ -11,6 +11,34 @@ author_profile: true
 
 {% include base_path %}
 
+## Preprints ({{ site.pubpreprint | size }})
+
+{% assign years = "" | split: ',' %}
+
+{% for post in site.pubpreprint reversed %}
+  {% assign years = years | push: post.year %}
+
+{% endfor %}
+
+{% assign years = years | uniq %}
+
+{% for year in years %}
+  <h3>{{ year }}</h3>
+  {% for post in site.pubpreprint reversed %}
+  {% if post.year == year %}
+  <details>
+    {% if post.paperurl %}
+    <summary>[{{post.year}}] {{post.title}} <a href="{{ post.paperurl }}">[PDF]</a>
+    {% else %}
+    <summary>[{{post.year}}] {{post.title}}</a>
+    {% endif %}
+    <span class="venue">({{post.venue}})</span></summary>
+    <div class="pubdetails">{% include archive-single.html %}</div>
+    </details>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
+
 ## International Conferences Proceedings ({{ site.pubi18njournal | size }})
 
 {% assign years = "" | split: ',' %}
@@ -94,6 +122,8 @@ author_profile: true
   {% endif %}
   {% endfor %}
 {% endfor %}
+
+
 
 
 {% include text-expand.html %}

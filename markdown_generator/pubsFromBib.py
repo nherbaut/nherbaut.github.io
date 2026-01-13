@@ -51,7 +51,15 @@ publist = {
         "collection" : {"name":"pubn8lpub",
                         "permalink":"/publications/"},
         "category" : "National conference or journal articles"
-    } 
+    },
+    "preprint":{
+        "file": "preprints.bib",
+        "venuekey" : "howpublished",
+        "venue-pretext" : "",
+        "collection" : {"name":"pubpreprint",
+                        "permalink":"/publications/"},
+        "category" : "Preprints"
+    }
 }
 
 html_escape_table = {
@@ -121,10 +129,18 @@ for pubsource in publist:
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
             #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            venue_value = b.get(publist[pubsource]["venuekey"])
+            if venue_value:
+                venue_value = venue_value.replace("{", "").replace("}","").replace("\\","")
+            else:
+                venue_value = ""
+            venue = publist[pubsource]["venue-pretext"] + venue_value
 
-            citation = citation + " " + html_escape(venue)
-            citation = citation + ", " + pub_year + "."
+            if venue:
+                citation = citation + " " + html_escape(venue)
+
+            citation = citation + ", " + pub_year
+            citation = citation + "."
 
             
             ## YAML variables
@@ -148,6 +164,13 @@ for pubsource in publist:
             md += "\nyear: " + str(pub_year) 
 
             md += "\nvenue: '" + html_escape(venue) + "'"
+
+            status = False
+            status_value = b.get("status", "")
+            if status_value:
+                status_value = str(status_value).strip()
+                md += "\nstatus: '" + html_escape(status_value) + "'"
+                status = True
             
             url = False
             if "url" in b.keys():

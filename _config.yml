@@ -192,6 +192,9 @@ collections:
   pubn8lpub:
     output: true
     permalink: /publications/:path/
+  pubpreprint:
+    output: true
+    permalink: /publications/:path/
   research:
     output: true
     permalink: /:collection/:path/
