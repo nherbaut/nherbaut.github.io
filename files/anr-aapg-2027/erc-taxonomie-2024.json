@@ -1,0 +1,750 @@
+{
+  "source": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024",
+  "scheme_uri": "https://uri.ird.fr/so/kos/erc-panels/panel_structure_2024",
+  "year": 2024,
+  "codes": {
+    "LS1": {
+      "label_fr": "molécules de la vie : mécanismes biologiques, structures et fonctions",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS1",
+      "axes": [
+        "A.03",
+        "A.04",
+        "C.01",
+        "C.02",
+        "C.03",
+        "H.03",
+        "H.11",
+        "H.14"
+      ],
+      "resolved": true
+    },
+    "LS2": {
+      "label_fr": "biologie intégrative : des gènes et génomes aux systèmes",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS2",
+      "axes": [
+        "A.02",
+        "A.03",
+        "A.04",
+        "C.01",
+        "C.02",
+        "C.03",
+        "H.02",
+        "H.03",
+        "H.04",
+        "H.06",
+        "H.07",
+        "H.14",
+        "H.17"
+      ],
+      "resolved": true
+    },
+    "LS3": {
+      "label_fr": "biologie cellulaire, développement, cellules souches et régénération",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS3",
+      "axes": [
+        "A.03",
+        "C.04",
+        "C.07",
+        "C.11",
+        "H.14"
+      ],
+      "resolved": true
+    },
+    "LS4": {
+      "label_fr": "physiologie de la santé, de la maladie et du vieillissement",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS4",
+      "axes": [
+        "A.03",
+        "A.04",
+        "C.05",
+        "C.09"
+      ],
+      "resolved": true
+    },
+    "LS5": {
+      "label_fr": "neurosciences et troubles du système nerveux",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS5",
+      "axes": [
+        "C.07",
+        "C.08",
+        "H.14",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "LS6": {
+      "label_fr": "immunité, infection et immunothérapie",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS6",
+      "axes": [
+        "A.03",
+        "C.06",
+        "H.03",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "LS7": {
+      "label_fr": "prévention, diagnostic et traitement des maladies humaines",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS7",
+      "axes": [
+        "C.05",
+        "C.07",
+        "C.08",
+        "C.09",
+        "C.10",
+        "C.11",
+        "H.03",
+        "H.04",
+        "H.10",
+        "H.13",
+        "H.14",
+        "H.17",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "LS7_8": {
+      "label_fr": "efficacité des interventions, y compris la résistance aux thérapies",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS7_8",
+      "axes": [
+        "C.01"
+      ],
+      "resolved": true
+    },
+    "LS7_9": {
+      "label_fr": "santé publique et épidémiologie",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS7_9",
+      "axes": [
+        "C.01"
+      ],
+      "resolved": true
+    },
+    "LS7_10": {
+      "label_fr": "médecine préventive et pronostique",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS7_10",
+      "axes": [
+        "C.01"
+      ],
+      "resolved": true
+    },
+    "LS7_11": {
+      "label_fr": "santé environnementale, médecine du travail",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS7_11",
+      "axes": [
+        "C.01"
+      ],
+      "resolved": true
+    },
+    "LS7_12": {
+      "label_fr": "soins de santé, y compris la prise en charge de la population vieillissante",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS7_12",
+      "axes": [
+        "C.01"
+      ],
+      "resolved": true
+    },
+    "LS7_13": {
+      "label_fr": "médecine palliative",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS7_13",
+      "axes": [
+        "C.01"
+      ],
+      "resolved": true
+    },
+    "LS7_16": {
+      "label_fr": null,
+      "taxonomy_url": null,
+      "axes": [
+        "C.01"
+      ],
+      "resolved": false
+    },
+    "LS8": {
+      "label_fr": "biologie environnementale, écologie et évolution",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS8",
+      "axes": [
+        "A.01",
+        "A.02",
+        "A.03",
+        "A.04",
+        "C.03",
+        "C.04",
+        "H.01",
+        "H.03",
+        "H.05",
+        "H.06",
+        "H.07",
+        "H.16",
+        "H.18"
+      ],
+      "resolved": true
+    },
+    "LS9": {
+      "label_fr": "biotechnologie et ingénierie des biosystèmes",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FLS9",
+      "axes": [
+        "A.03",
+        "A.04",
+        "C.01",
+        "C.03",
+        "C.11",
+        "H.02",
+        "H.05",
+        "H.06",
+        "H.07",
+        "H.08",
+        "H.09",
+        "H.16",
+        "H.17",
+        "H.18"
+      ],
+      "resolved": true
+    },
+    "PE1": {
+      "label_fr": "mathématiques",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE1",
+      "axes": [
+        "E.01",
+        "E.02",
+        "E.05",
+        "F.01",
+        "H.08",
+        "H.09",
+        "H.14",
+        "H.15",
+        "H.16",
+        "H.17",
+        "H.18",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "PE2": {
+      "label_fr": "constituants fondamentaux de la matière",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE2",
+      "axes": [
+        "E.06",
+        "H.08",
+        "H.09",
+        "H.11",
+        "H.12",
+        "H.13",
+        "H.17",
+        "H.18",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "PE2_1": {
+      "label_fr": "théorie des interactions fondamentales",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE2_1",
+      "axes": [
+        "B.06"
+      ],
+      "resolved": true
+    },
+    "PE2_2": {
+      "label_fr": "phénoménologie des interactions fondamentales",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE2_2",
+      "axes": [
+        "G.02"
+      ],
+      "resolved": true
+    },
+    "PE2_5": {
+      "label_fr": "physique classique et quantique des interactions gravitationnelles",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE2_5",
+      "axes": [
+        "B.06"
+      ],
+      "resolved": true
+    },
+    "PE2_7": {
+      "label_fr": "astrophysique nucléaire et astrophysique des particules",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE2_7",
+      "axes": [
+        "G.02"
+      ],
+      "resolved": true
+    },
+    "PE2_8": {
+      "label_fr": "physique des gaz et des plasmas",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE2_8",
+      "axes": [
+        "B.06"
+      ],
+      "resolved": true
+    },
+    "PE2_18": {
+      "label_fr": "mécanique statistique à l'équilibre et hors équilibre : états stables et dynamique",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE2_18",
+      "axes": [
+        "B.06"
+      ],
+      "resolved": true
+    },
+    "PE3": {
+      "label_fr": "physique de la matière condensée",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE3",
+      "axes": [
+        "B.02",
+        "B.07",
+        "E.06",
+        "H.08",
+        "H.09",
+        "H.10",
+        "H.11",
+        "H.12",
+        "H.13",
+        "H.17",
+        "H.18"
+      ],
+      "resolved": true
+    },
+    "PE3_13": {
+      "label_fr": "structure et dynamique des systèmes désordonnés, par exemple matière molle (gels, colloïdes, cristaux liquides), matière granulaire, liquides, verres, défauts",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE3_13",
+      "axes": [
+        "B.01"
+      ],
+      "resolved": true
+    },
+    "PE3_16": {
+      "label_fr": "physique des systèmes biologiques",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE3_16",
+      "axes": [
+        "C.02"
+      ],
+      "resolved": true
+    },
+    "PE4": {
+      "label_fr": "sciences chimiques physiques et analytiques",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE4",
+      "axes": [
+        "A.01",
+        "A.04",
+        "B.01",
+        "B.02",
+        "B.04",
+        "B.05",
+        "H.02",
+        "H.05",
+        "H.07",
+        "H.08",
+        "H.09",
+        "H.10",
+        "H.11",
+        "H.17"
+      ],
+      "resolved": true
+    },
+    "PE4_11": {
+      "label_fr": "chimie physique des systèmes biologiques",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE4_11",
+      "axes": [
+        "C.01"
+      ],
+      "resolved": true
+    },
+    "PE5": {
+      "label_fr": "chimie de synthèse et matériaux",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE5",
+      "axes": [
+        "B.01",
+        "B.02",
+        "B.04",
+        "H.05",
+        "H.07",
+        "H.08",
+        "H.09",
+        "H.10",
+        "H.11",
+        "H.12",
+        "H.17"
+      ],
+      "resolved": true
+    },
+    "PE5_7": {
+      "label_fr": "synthèse de biomatériaux",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE5_7",
+      "axes": [
+        "C.11"
+      ],
+      "resolved": true
+    },
+    "PE5_11": {
+      "label_fr": "chimie biologique et biologie chimique",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE5_11",
+      "axes": [
+        "C.01"
+      ],
+      "resolved": true
+    },
+    "PE5_18": {
+      "label_fr": "chimie médicinale",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE5_18",
+      "axes": [
+        "C.01"
+      ],
+      "resolved": true
+    },
+    "PE6": {
+      "label_fr": "informatique et sciences de l'information",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE6",
+      "axes": [
+        "E.01",
+        "E.02",
+        "E.03",
+        "E.04",
+        "E.05",
+        "E.06",
+        "F.01",
+        "H.03",
+        "H.05",
+        "H.06",
+        "H.08",
+        "H.09",
+        "H.14",
+        "H.15",
+        "H.16",
+        "H.17",
+        "H.18",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "PE7": {
+      "label_fr": "ingénierie des systèmes et des communications",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE7",
+      "axes": [
+        "B.02",
+        "E.01",
+        "E.02",
+        "E.03",
+        "E.04",
+        "E.05",
+        "H.05",
+        "H.08",
+        "H.09",
+        "H.11",
+        "H.12",
+        "H.13",
+        "H.14",
+        "H.15",
+        "H.16",
+        "H.17",
+        "H.18",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "PE7_3": {
+      "label_fr": "ingénierie de la simulation et modélisation",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE7_3",
+      "axes": [
+        "B.03"
+      ],
+      "resolved": true
+    },
+    "PE7_4": {
+      "label_fr": "ingénierie des systèmes (micro- et nano-)",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE7_4",
+      "axes": [
+        "B.03"
+      ],
+      "resolved": true
+    },
+    "PE8": {
+      "label_fr": "ingénierie des produits et des processus",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE8",
+      "axes": [
+        "A.04",
+        "B.02",
+        "B.03",
+        "E.05",
+        "H.01",
+        "H.05",
+        "H.07",
+        "H.08",
+        "H.09",
+        "H.11",
+        "H.17",
+        "H.18",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "PE8_8": {
+      "label_fr": "ingénierie de la propulsion, par exemple moteurs hydrauliques, turbo, à pistons, hybrides",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE8_8",
+      "axes": [
+        "C.11"
+      ],
+      "resolved": true
+    },
+    "PE9_2": {
+      "label_fr": "science du système solaire",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE9_2",
+      "axes": [
+        "G.01"
+      ],
+      "resolved": true
+    },
+    "PE9_3": {
+      "label_fr": "science des exoplanètes, formation et caractérisation des planètes extrasolaires",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE9_3",
+      "axes": [
+        "G.01"
+      ],
+      "resolved": true
+    },
+    "PE9_4": {
+      "label_fr": "astrobiologie",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE9_4",
+      "axes": [
+        "G.01"
+      ],
+      "resolved": true
+    },
+    "PE9_5": {
+      "label_fr": "milieu interstellaire et formation des étoiles",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE9_5",
+      "axes": [
+        "G.02"
+      ],
+      "resolved": true
+    },
+    "PE9_13": {
+      "label_fr": "instrumentation et données astronomiques, par exemple télescopes, détecteurs, techniques, archives, analyses",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE9_13",
+      "axes": [
+        "G.01",
+        "G.02"
+      ],
+      "resolved": true
+    },
+    "PE10": {
+      "label_fr": "science du système terrestre",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE10",
+      "axes": [
+        "A.01",
+        "A.02",
+        "G.01",
+        "H.01",
+        "H.02",
+        "H.03",
+        "H.05",
+        "H.06",
+        "H.16",
+        "H.18"
+      ],
+      "resolved": true
+    },
+    "PE10_6": {
+      "label_fr": "paléoclimatologie, paléoécologie",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE10_6",
+      "axes": [
+        "D.06"
+      ],
+      "resolved": true
+    },
+    "PE11": {
+      "label_fr": "ingénierie des matériaux",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FPE11",
+      "axes": [
+        "B.01",
+        "B.02",
+        "B.03",
+        "H.05",
+        "H.08",
+        "H.09"
+      ],
+      "resolved": true
+    },
+    "SH1": {
+      "label_fr": "individus, marchés et organisations",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH1",
+      "axes": [
+        "A.04",
+        "D.01",
+        "H.01",
+        "H.04",
+        "H.06",
+        "H.07",
+        "H.09",
+        "H.15",
+        "H.17",
+        "H.18",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "SH2": {
+      "label_fr": "institutions, gouvernance et systèmes juridiques",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH2",
+      "axes": [
+        "A.04",
+        "D.02",
+        "H.01",
+        "H.03",
+        "H.04",
+        "H.06",
+        "H.07",
+        "H.09",
+        "H.15",
+        "H.17",
+        "H.18",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "SH3": {
+      "label_fr": "monde social et ses interactions",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH3",
+      "axes": [
+        "A.04",
+        "D.03",
+        "H.01",
+        "H.03",
+        "H.04",
+        "H.06",
+        "H.07",
+        "H.09",
+        "H.15",
+        "H.17",
+        "H.18",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "SH4": {
+      "label_fr": "esprit humain et sa complexité",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH4",
+      "axes": [
+        "C.08",
+        "D.04",
+        "E.04",
+        "H.04",
+        "H.09",
+        "H.15",
+        "H.17",
+        "H.18",
+        "H.19"
+      ],
+      "resolved": true
+    },
+    "SH5": {
+      "label_fr": "textes et concepts",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH5",
+      "axes": [
+        "D.05",
+        "D.06",
+        "H.15"
+      ],
+      "resolved": true
+    },
+    "SH6": {
+      "label_fr": "étude du passé humain",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH6",
+      "axes": [
+        "D.06",
+        "H.04",
+        "H.09",
+        "H.15",
+        "H.16",
+        "H.17",
+        "H.18"
+      ],
+      "resolved": true
+    },
+    "SH7": {
+      "label_fr": "mobilité humaine, environnement et espace",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH7",
+      "axes": [
+        "D.07",
+        "H.01",
+        "H.02",
+        "H.05",
+        "H.06",
+        "H.07",
+        "H.09",
+        "H.15",
+        "H.16",
+        "H.18"
+      ],
+      "resolved": true
+    },
+    "SH8_1": {
+      "label_fr": "parenté, diversité et identités, genre, relations interethniques",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH8_1",
+      "axes": [
+        "D.06"
+      ],
+      "resolved": true
+    },
+    "SH8_2": {
+      "label_fr": "études religieuses, rituel, représentation symbolique",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH8_2",
+      "axes": [
+        "D.06"
+      ],
+      "resolved": true
+    },
+    "SH8_3": {
+      "label_fr": "études culturelles et théorie, identités culturelles et mémoires, patrimoine culturel",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH8_3",
+      "axes": [
+        "D.06"
+      ],
+      "resolved": true
+    },
+    "SH8_4": {
+      "label_fr": "musées, expositions, conservation et restauration",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH8_4",
+      "axes": [
+        "D.06"
+      ],
+      "resolved": true
+    },
+    "SH8_5": {
+      "label_fr": "histoire de l'art et de l'architecture",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH8_5",
+      "axes": [
+        "D.05"
+      ],
+      "resolved": true
+    },
+    "SH8_6": {
+      "label_fr": "architecture, design, artisanat, industries créatives",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH8_6",
+      "axes": [
+        "D.05"
+      ],
+      "resolved": true
+    },
+    "SH8_7": {
+      "label_fr": "musique et musicologie, histoire de la musique",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH8_7",
+      "axes": [
+        "D.05"
+      ],
+      "resolved": true
+    },
+    "SH8_8": {
+      "label_fr": "arts visuels et du spectacle, écran, recherche artistique",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH8_8",
+      "axes": [
+        "D.05"
+      ],
+      "resolved": true
+    },
+    "SH8_9": {
+      "label_fr": "approches numériques de l'anthropologie, des études culturelles et de l'art",
+      "taxonomy_url": "https://ref-science.ird.fr/erc-panels/fr/page/?uri=https%3A%2F%2Furi.ird.fr%2Fso%2Fkos%2Ferc-panels%2Fpanel_structure_2024%2FSH8_9",
+      "axes": [
+        "D.05"
+      ],
+      "resolved": true
+    }
+  }
+}
